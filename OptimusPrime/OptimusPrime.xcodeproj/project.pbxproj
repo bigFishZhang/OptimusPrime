@@ -16,6 +16,62 @@
 		FF0B811622FBACC900C1B094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0B811422FBACC900C1B094 /* LaunchScreen.storyboard */; };
 		FF0B811922FBACC900C1B094 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B811822FBACC900C1B094 /* main.m */; };
 		FF0B812322FBACC900C1B094 /* OptimusPrimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B812222FBACC900C1B094 /* OptimusPrimeTests.m */; };
+		FF0B813D22FBBE0800C1B094 /* ZBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B813C22FBBE0800C1B094 /* ZBRouter.m */; };
+		FF0B813E22FBBE0800C1B094 /* ZBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B813C22FBBE0800C1B094 /* ZBRouter.m */; };
+		FF0B814222FBC06600C1B094 /* ZBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B814122FBC06600C1B094 /* ZBObject.m */; };
+		FF0B814322FBC06600C1B094 /* ZBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B814122FBC06600C1B094 /* ZBObject.m */; };
+		FF0B814622FBC0A400C1B094 /* ZBReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B814522FBC0A400C1B094 /* ZBReflection.m */; };
+		FF0B814722FBC0A400C1B094 /* ZBReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B814522FBC0A400C1B094 /* ZBReflection.m */; };
+		FF0B814A22FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B814922FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m */; };
+		FF0B814B22FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B814922FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m */; };
+		FF0B815022FBC11800C1B094 /* NSError+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B814F22FBC11800C1B094 /* NSError+ZBExtension.m */; };
+		FF0B815122FBC11800C1B094 /* NSError+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B814F22FBC11800C1B094 /* NSError+ZBExtension.m */; };
+		FF0B815422FBC12400C1B094 /* NSError+ZBModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B815322FBC12400C1B094 /* NSError+ZBModelException.m */; };
+		FF0B815522FBC12400C1B094 /* NSError+ZBModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B815322FBC12400C1B094 /* NSError+ZBModelException.m */; };
+		FF0B815922FBF4CB00C1B094 /* ZBControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B815822FBF4CB00C1B094 /* ZBControl.m */; };
+		FF0B815A22FBF4CB00C1B094 /* ZBControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B815822FBF4CB00C1B094 /* ZBControl.m */; };
+		FF0B818D22FBFD3900C1B094 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B817D22FBFD3900C1B094 /* YYWeakProxy.m */; };
+		FF0B818E22FBFD3900C1B094 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B817D22FBFD3900C1B094 /* YYWeakProxy.m */; };
+		FF0B818F22FBFD3900C1B094 /* YYThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B817F22FBFD3900C1B094 /* YYThreadSafeDictionary.m */; };
+		FF0B819022FBFD3900C1B094 /* YYThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B817F22FBFD3900C1B094 /* YYThreadSafeDictionary.m */; };
+		FF0B819122FBFD3900C1B094 /* YYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818722FBFD3900C1B094 /* YYKeychain.m */; };
+		FF0B819222FBFD3900C1B094 /* YYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818722FBFD3900C1B094 /* YYKeychain.m */; };
+		FF0B819322FBFD3900C1B094 /* YYGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818822FBFD3900C1B094 /* YYGestureRecognizer.m */; };
+		FF0B819422FBFD3900C1B094 /* YYGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818822FBFD3900C1B094 /* YYGestureRecognizer.m */; };
+		FF0B819522FBFD3900C1B094 /* YYFileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818922FBFD3900C1B094 /* YYFileHash.m */; };
+		FF0B819622FBFD3900C1B094 /* YYFileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818922FBFD3900C1B094 /* YYFileHash.m */; };
+		FF0B819722FBFD3900C1B094 /* YYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818A22FBFD3900C1B094 /* YYTimer.m */; };
+		FF0B819822FBFD3900C1B094 /* YYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818A22FBFD3900C1B094 /* YYTimer.m */; };
+		FF0B819922FBFD3900C1B094 /* YYThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818B22FBFD3900C1B094 /* YYThreadSafeArray.m */; };
+		FF0B819A22FBFD3900C1B094 /* YYThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818B22FBFD3900C1B094 /* YYThreadSafeArray.m */; };
+		FF0B819B22FBFD3900C1B094 /* YYReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818C22FBFD3900C1B094 /* YYReachability.m */; };
+		FF0B819C22FBFD3900C1B094 /* YYReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818C22FBFD3900C1B094 /* YYReachability.m */; };
+		FF0B819F22FC001600C1B094 /* ZBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B819E22FC001600C1B094 /* ZBButton.m */; };
+		FF0B81A022FC001600C1B094 /* ZBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B819E22FC001600C1B094 /* ZBButton.m */; };
+		FF0B81A322FC00BF00C1B094 /* ZBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81A222FC00BF00C1B094 /* ZBImageView.m */; };
+		FF0B81A422FC00BF00C1B094 /* ZBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81A222FC00BF00C1B094 /* ZBImageView.m */; };
+		FF0B81A722FC01D600C1B094 /* ZBTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81A622FC01D600C1B094 /* ZBTableView.m */; };
+		FF0B81A822FC01D600C1B094 /* ZBTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81A622FC01D600C1B094 /* ZBTableView.m */; };
+		FF0B81AC22FC03CE00C1B094 /* ZBViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81AB22FC03CE00C1B094 /* ZBViewModel.m */; };
+		FF0B81AD22FC03CE00C1B094 /* ZBViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81AB22FC03CE00C1B094 /* ZBViewModel.m */; };
+		FF0B81B122FC0B8000C1B094 /* ZBHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81B022FC0B8000C1B094 /* ZBHTTPService.m */; };
+		FF0B81B222FC0B8000C1B094 /* ZBHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81B022FC0B8000C1B094 /* ZBHTTPService.m */; };
+		FF0B81B922FC0C2200C1B094 /* ZBHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81B822FC0C2200C1B094 /* ZBHTTPResponse.m */; };
+		FF0B81BA22FC0C2200C1B094 /* ZBHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81B822FC0C2200C1B094 /* ZBHTTPResponse.m */; };
+		FF0B81C022FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81BF22FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m */; };
+		FF0B81C122FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81BF22FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m */; };
+		FF0B81C422FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81C322FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m */; };
+		FF0B81C522FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81C322FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m */; };
+		FF0B81C822FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81C722FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m */; };
+		FF0B81C922FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81C722FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m */; };
+		FF0B81CC22FC171800C1B094 /* ZBKeyedSubscript.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81CB22FC171800C1B094 /* ZBKeyedSubscript.m */; };
+		FF0B81CD22FC171800C1B094 /* ZBKeyedSubscript.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81CB22FC171800C1B094 /* ZBKeyedSubscript.m */; };
+		FF0B81D022FC172600C1B094 /* ZBHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81CF22FC172600C1B094 /* ZBHTTPRequest.m */; };
+		FF0B81D122FC172600C1B094 /* ZBHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81CF22FC172600C1B094 /* ZBHTTPRequest.m */; };
+		FF0B81D422FC173500C1B094 /* ZBURLParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81D322FC173500C1B094 /* ZBURLParameters.m */; };
+		FF0B81D522FC173500C1B094 /* ZBURLParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81D322FC173500C1B094 /* ZBURLParameters.m */; };
+		FF0B81DD22FC269700C1B094 /* ZBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81DC22FC269700C1B094 /* ZBUser.m */; };
+		FF0B81DE22FC269700C1B094 /* ZBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81DC22FC269700C1B094 /* ZBUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +104,66 @@
 		FF0B811E22FBACC900C1B094 /* OptimusPrimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimusPrimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0B812222FBACC900C1B094 /* OptimusPrimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptimusPrimeTests.m; sourceTree = "<group>"; };
 		FF0B812422FBACC900C1B094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0B813B22FBBE0800C1B094 /* ZBRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBRouter.h; sourceTree = "<group>"; };
+		FF0B813C22FBBE0800C1B094 /* ZBRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBRouter.m; sourceTree = "<group>"; };
+		FF0B813F22FBBEF600C1B094 /* OptimusPrime.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptimusPrime.pch; sourceTree = "<group>"; };
+		FF0B814022FBC06600C1B094 /* ZBObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBObject.h; sourceTree = "<group>"; };
+		FF0B814122FBC06600C1B094 /* ZBObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBObject.m; sourceTree = "<group>"; };
+		FF0B814422FBC0A400C1B094 /* ZBReflection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBReflection.h; sourceTree = "<group>"; };
+		FF0B814522FBC0A400C1B094 /* ZBReflection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBReflection.m; sourceTree = "<group>"; };
+		FF0B814822FBC0C800C1B094 /* ZBEXTRuntimeExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBEXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		FF0B814922FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBEXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		FF0B814E22FBC11800C1B094 /* NSError+ZBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+ZBExtension.h"; sourceTree = "<group>"; };
+		FF0B814F22FBC11800C1B094 /* NSError+ZBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+ZBExtension.m"; sourceTree = "<group>"; };
+		FF0B815222FBC12400C1B094 /* NSError+ZBModelException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+ZBModelException.h"; sourceTree = "<group>"; };
+		FF0B815322FBC12400C1B094 /* NSError+ZBModelException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+ZBModelException.m"; sourceTree = "<group>"; };
+		FF0B815722FBF4CB00C1B094 /* ZBControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBControl.h; sourceTree = "<group>"; };
+		FF0B815822FBF4CB00C1B094 /* ZBControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBControl.m; sourceTree = "<group>"; };
+		FF0B817D22FBFD3900C1B094 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		FF0B817E22FBFD3900C1B094 /* YYKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKeychain.h; sourceTree = "<group>"; };
+		FF0B817F22FBFD3900C1B094 /* YYThreadSafeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYThreadSafeDictionary.m; sourceTree = "<group>"; };
+		FF0B818022FBFD3900C1B094 /* YYFileHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFileHash.h; sourceTree = "<group>"; };
+		FF0B818122FBFD3900C1B094 /* YYGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGestureRecognizer.h; sourceTree = "<group>"; };
+		FF0B818222FBFD3900C1B094 /* YYReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYReachability.h; sourceTree = "<group>"; };
+		FF0B818322FBFD3900C1B094 /* YYThreadSafeArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYThreadSafeArray.h; sourceTree = "<group>"; };
+		FF0B818422FBFD3900C1B094 /* YYTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimer.h; sourceTree = "<group>"; };
+		FF0B818522FBFD3900C1B094 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		FF0B818622FBFD3900C1B094 /* YYThreadSafeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYThreadSafeDictionary.h; sourceTree = "<group>"; };
+		FF0B818722FBFD3900C1B094 /* YYKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKeychain.m; sourceTree = "<group>"; };
+		FF0B818822FBFD3900C1B094 /* YYGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGestureRecognizer.m; sourceTree = "<group>"; };
+		FF0B818922FBFD3900C1B094 /* YYFileHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFileHash.m; sourceTree = "<group>"; };
+		FF0B818A22FBFD3900C1B094 /* YYTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimer.m; sourceTree = "<group>"; };
+		FF0B818B22FBFD3900C1B094 /* YYThreadSafeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYThreadSafeArray.m; sourceTree = "<group>"; };
+		FF0B818C22FBFD3900C1B094 /* YYReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYReachability.m; sourceTree = "<group>"; };
+		FF0B819D22FC001600C1B094 /* ZBButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBButton.h; sourceTree = "<group>"; };
+		FF0B819E22FC001600C1B094 /* ZBButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBButton.m; sourceTree = "<group>"; };
+		FF0B81A122FC00BF00C1B094 /* ZBImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBImageView.h; sourceTree = "<group>"; };
+		FF0B81A222FC00BF00C1B094 /* ZBImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBImageView.m; sourceTree = "<group>"; };
+		FF0B81A522FC01D600C1B094 /* ZBTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBTableView.h; sourceTree = "<group>"; };
+		FF0B81A622FC01D600C1B094 /* ZBTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTableView.m; sourceTree = "<group>"; };
+		FF0B81AA22FC03CE00C1B094 /* ZBViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBViewModel.h; sourceTree = "<group>"; };
+		FF0B81AB22FC03CE00C1B094 /* ZBViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBViewModel.m; sourceTree = "<group>"; };
+		FF0B81AF22FC0B8000C1B094 /* ZBHTTPService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBHTTPService.h; sourceTree = "<group>"; };
+		FF0B81B022FC0B8000C1B094 /* ZBHTTPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBHTTPService.m; sourceTree = "<group>"; };
+		FF0B81B722FC0C2200C1B094 /* ZBHTTPResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBHTTPResponse.h; sourceTree = "<group>"; };
+		FF0B81B822FC0C2200C1B094 /* ZBHTTPResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBHTTPResponse.m; sourceTree = "<group>"; };
+		FF0B81BB22FC0CE800C1B094 /* ZBHTTPServiceConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBHTTPServiceConstant.h; sourceTree = "<group>"; };
+		FF0B81BE22FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RACSignal+ZBHTTPServiceAdditions.h"; sourceTree = "<group>"; };
+		FF0B81BF22FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RACSignal+ZBHTTPServiceAdditions.m"; sourceTree = "<group>"; };
+		FF0B81C222FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+RACSupport.h"; sourceTree = "<group>"; };
+		FF0B81C322FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+RACSupport.m"; sourceTree = "<group>"; };
+		FF0B81C622FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RACSubscriber+AFProgressCallbacks.h"; sourceTree = "<group>"; };
+		FF0B81C722FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RACSubscriber+AFProgressCallbacks.m"; sourceTree = "<group>"; };
+		FF0B81CA22FC171800C1B094 /* ZBKeyedSubscript.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBKeyedSubscript.h; sourceTree = "<group>"; };
+		FF0B81CB22FC171800C1B094 /* ZBKeyedSubscript.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBKeyedSubscript.m; sourceTree = "<group>"; };
+		FF0B81CE22FC172600C1B094 /* ZBHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBHTTPRequest.h; sourceTree = "<group>"; };
+		FF0B81CF22FC172600C1B094 /* ZBHTTPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBHTTPRequest.m; sourceTree = "<group>"; };
+		FF0B81D222FC173500C1B094 /* ZBURLParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBURLParameters.h; sourceTree = "<group>"; };
+		FF0B81D322FC173500C1B094 /* ZBURLParameters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBURLParameters.m; sourceTree = "<group>"; };
+		FF0B81D622FC1B0800C1B094 /* ZBURLConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBURLConfigure.h; sourceTree = "<group>"; };
+		FF0B81DB22FC269700C1B094 /* ZBUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBUser.h; sourceTree = "<group>"; };
+		FF0B81DC22FC269700C1B094 /* ZBUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBUser.m; sourceTree = "<group>"; };
+		FF0B81E022FC2AE100C1B094 /* ZBConstInline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBConstInline.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,15 +229,19 @@
 		FF0B810822FBACC700C1B094 /* OptimusPrime */ = {
 			isa = PBXGroup;
 			children = (
-				FF0B810922FBACC700C1B094 /* AppDelegate.h */,
-				FF0B810A22FBACC700C1B094 /* AppDelegate.m */,
+				FF0B813022FBBBA700C1B094 /* View */,
+				FF0B813322FBBBA700C1B094 /* ViewController */,
+				FF0B813522FBBBAC00C1B094 /* ViewModel */,
+				FF0B812F22FBBBA700C1B094 /* Model */,
+				FF0B813422FBBBA800C1B094 /* Resource */,
+				FF0B813122FBBBA700C1B094 /* Utils */,
+				FF0B813222FBBBA700C1B094 /* Vendor */,
+				FF0B812E22FBBBA100C1B094 /* Macros */,
+				FF0B812D22FBBB9B00C1B094 /* App */,
 				FF0B810C22FBACC700C1B094 /* ViewController.h */,
 				FF0B810D22FBACC700C1B094 /* ViewController.m */,
 				FF0B810F22FBACC700C1B094 /* Main.storyboard */,
-				FF0B811222FBACC900C1B094 /* Assets.xcassets */,
 				FF0B811422FBACC900C1B094 /* LaunchScreen.storyboard */,
-				FF0B811722FBACC900C1B094 /* Info.plist */,
-				FF0B811822FBACC900C1B094 /* main.m */,
 			);
 			path = OptimusPrime;
 			sourceTree = "<group>";
@@ -133,6 +253,246 @@
 				FF0B812422FBACC900C1B094 /* Info.plist */,
 			);
 			path = OptimusPrimeTests;
+			sourceTree = "<group>";
+		};
+		FF0B812D22FBBB9B00C1B094 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B810922FBACC700C1B094 /* AppDelegate.h */,
+				FF0B810A22FBACC700C1B094 /* AppDelegate.m */,
+				FF0B811722FBACC900C1B094 /* Info.plist */,
+				FF0B811822FBACC900C1B094 /* main.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FF0B812E22FBBBA100C1B094 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B813F22FBBEF600C1B094 /* OptimusPrime.pch */,
+				FF0B81D622FC1B0800C1B094 /* ZBURLConfigure.h */,
+				FF0B81E022FC2AE100C1B094 /* ZBConstInline.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		FF0B812F22FBBBA700C1B094 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B81D722FC266600C1B094 /* User */,
+				FF0B813622FBBDC000C1B094 /* BaseClass */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF0B813022FBBBA700C1B094 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B813922FBBDDB00C1B094 /* BaseClass */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF0B813122FBBBA700C1B094 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B815622FBC17200C1B094 /* HTTP */,
+				FF0B814C22FBC0E400C1B094 /* Category */,
+				FF0B813A22FBBDEE00C1B094 /* Router */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FF0B813222FBBBA700C1B094 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B817C22FBFD3900C1B094 /* YYKit */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		FF0B813322FBBBA700C1B094 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B813822FBBDD200C1B094 /* BaseClass */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FF0B813422FBBBA800C1B094 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B811222FBACC900C1B094 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FF0B813522FBBBAC00C1B094 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B813722FBBDCA00C1B094 /* BaseClass */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF0B813622FBBDC000C1B094 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B814022FBC06600C1B094 /* ZBObject.h */,
+				FF0B814122FBC06600C1B094 /* ZBObject.m */,
+				FF0B814422FBC0A400C1B094 /* ZBReflection.h */,
+				FF0B814522FBC0A400C1B094 /* ZBReflection.m */,
+				FF0B814822FBC0C800C1B094 /* ZBEXTRuntimeExtensions.h */,
+				FF0B814922FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		FF0B813722FBBDCA00C1B094 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B81AA22FC03CE00C1B094 /* ZBViewModel.h */,
+				FF0B81AB22FC03CE00C1B094 /* ZBViewModel.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		FF0B813822FBBDD200C1B094 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		FF0B813922FBBDDB00C1B094 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B815722FBF4CB00C1B094 /* ZBControl.h */,
+				FF0B815822FBF4CB00C1B094 /* ZBControl.m */,
+				FF0B819D22FC001600C1B094 /* ZBButton.h */,
+				FF0B819E22FC001600C1B094 /* ZBButton.m */,
+				FF0B81A122FC00BF00C1B094 /* ZBImageView.h */,
+				FF0B81A222FC00BF00C1B094 /* ZBImageView.m */,
+				FF0B81A522FC01D600C1B094 /* ZBTableView.h */,
+				FF0B81A622FC01D600C1B094 /* ZBTableView.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		FF0B813A22FBBDEE00C1B094 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B813B22FBBE0800C1B094 /* ZBRouter.h */,
+				FF0B813C22FBBE0800C1B094 /* ZBRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FF0B814C22FBC0E400C1B094 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B814D22FBC0F600C1B094 /* NSError */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FF0B814D22FBC0F600C1B094 /* NSError */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B814E22FBC11800C1B094 /* NSError+ZBExtension.h */,
+				FF0B814F22FBC11800C1B094 /* NSError+ZBExtension.m */,
+				FF0B815222FBC12400C1B094 /* NSError+ZBModelException.h */,
+				FF0B815322FBC12400C1B094 /* NSError+ZBModelException.m */,
+			);
+			path = NSError;
+			sourceTree = "<group>";
+		};
+		FF0B815622FBC17200C1B094 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B81BD22FC0EFE00C1B094 /* Category */,
+				FF0B81B622FC0BBD00C1B094 /* Request */,
+				FF0B81B422FC0BA600C1B094 /* Constant */,
+				FF0B81B322FC0B9F00C1B094 /* BaseModel */,
+				FF0B81AF22FC0B8000C1B094 /* ZBHTTPService.h */,
+				FF0B81B022FC0B8000C1B094 /* ZBHTTPService.m */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		FF0B817C22FBFD3900C1B094 /* YYKit */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B817D22FBFD3900C1B094 /* YYWeakProxy.m */,
+				FF0B817E22FBFD3900C1B094 /* YYKeychain.h */,
+				FF0B817F22FBFD3900C1B094 /* YYThreadSafeDictionary.m */,
+				FF0B818022FBFD3900C1B094 /* YYFileHash.h */,
+				FF0B818122FBFD3900C1B094 /* YYGestureRecognizer.h */,
+				FF0B818222FBFD3900C1B094 /* YYReachability.h */,
+				FF0B818322FBFD3900C1B094 /* YYThreadSafeArray.h */,
+				FF0B818422FBFD3900C1B094 /* YYTimer.h */,
+				FF0B818522FBFD3900C1B094 /* YYWeakProxy.h */,
+				FF0B818622FBFD3900C1B094 /* YYThreadSafeDictionary.h */,
+				FF0B818722FBFD3900C1B094 /* YYKeychain.m */,
+				FF0B818822FBFD3900C1B094 /* YYGestureRecognizer.m */,
+				FF0B818922FBFD3900C1B094 /* YYFileHash.m */,
+				FF0B818A22FBFD3900C1B094 /* YYTimer.m */,
+				FF0B818B22FBFD3900C1B094 /* YYThreadSafeArray.m */,
+				FF0B818C22FBFD3900C1B094 /* YYReachability.m */,
+			);
+			path = YYKit;
+			sourceTree = "<group>";
+		};
+		FF0B81B322FC0B9F00C1B094 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B81B722FC0C2200C1B094 /* ZBHTTPResponse.h */,
+				FF0B81B822FC0C2200C1B094 /* ZBHTTPResponse.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		FF0B81B422FC0BA600C1B094 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B81BB22FC0CE800C1B094 /* ZBHTTPServiceConstant.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		FF0B81B622FC0BBD00C1B094 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B81CA22FC171800C1B094 /* ZBKeyedSubscript.h */,
+				FF0B81CB22FC171800C1B094 /* ZBKeyedSubscript.m */,
+				FF0B81CE22FC172600C1B094 /* ZBHTTPRequest.h */,
+				FF0B81CF22FC172600C1B094 /* ZBHTTPRequest.m */,
+				FF0B81D222FC173500C1B094 /* ZBURLParameters.h */,
+				FF0B81D322FC173500C1B094 /* ZBURLParameters.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		FF0B81BD22FC0EFE00C1B094 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B81BE22FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.h */,
+				FF0B81BF22FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m */,
+				FF0B81C222FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.h */,
+				FF0B81C322FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m */,
+				FF0B81C622FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.h */,
+				FF0B81C722FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FF0B81D722FC266600C1B094 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B81DB22FC269700C1B094 /* ZBUser.h */,
+				FF0B81DC22FC269700C1B094 /* ZBUser.m */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,9 +662,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0B81C022FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m in Sources */,
+				FF0B819122FBFD3900C1B094 /* YYKeychain.m in Sources */,
+				FF0B819522FBFD3900C1B094 /* YYFileHash.m in Sources */,
+				FF0B814622FBC0A400C1B094 /* ZBReflection.m in Sources */,
+				FF0B81C422FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m in Sources */,
+				FF0B814222FBC06600C1B094 /* ZBObject.m in Sources */,
+				FF0B818D22FBFD3900C1B094 /* YYWeakProxy.m in Sources */,
+				FF0B815422FBC12400C1B094 /* NSError+ZBModelException.m in Sources */,
+				FF0B81B122FC0B8000C1B094 /* ZBHTTPService.m in Sources */,
+				FF0B81A322FC00BF00C1B094 /* ZBImageView.m in Sources */,
+				FF0B819322FBFD3900C1B094 /* YYGestureRecognizer.m in Sources */,
+				FF0B81A722FC01D600C1B094 /* ZBTableView.m in Sources */,
+				FF0B819722FBFD3900C1B094 /* YYTimer.m in Sources */,
+				FF0B814A22FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m in Sources */,
 				FF0B810E22FBACC700C1B094 /* ViewController.m in Sources */,
+				FF0B81C822FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
+				FF0B818F22FBFD3900C1B094 /* YYThreadSafeDictionary.m in Sources */,
 				FF0B811922FBACC900C1B094 /* main.m in Sources */,
+				FF0B819B22FBFD3900C1B094 /* YYReachability.m in Sources */,
+				FF0B81D422FC173500C1B094 /* ZBURLParameters.m in Sources */,
+				FF0B813D22FBBE0800C1B094 /* ZBRouter.m in Sources */,
 				FF0B810B22FBACC700C1B094 /* AppDelegate.m in Sources */,
+				FF0B81DD22FC269700C1B094 /* ZBUser.m in Sources */,
+				FF0B819F22FC001600C1B094 /* ZBButton.m in Sources */,
+				FF0B81AC22FC03CE00C1B094 /* ZBViewModel.m in Sources */,
+				FF0B81D022FC172600C1B094 /* ZBHTTPRequest.m in Sources */,
+				FF0B815022FBC11800C1B094 /* NSError+ZBExtension.m in Sources */,
+				FF0B819922FBFD3900C1B094 /* YYThreadSafeArray.m in Sources */,
+				FF0B81B922FC0C2200C1B094 /* ZBHTTPResponse.m in Sources */,
+				FF0B81CC22FC171800C1B094 /* ZBKeyedSubscript.m in Sources */,
+				FF0B815922FBF4CB00C1B094 /* ZBControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +700,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0B81C522FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m in Sources */,
+				FF0B81BA22FC0C2200C1B094 /* ZBHTTPResponse.m in Sources */,
+				FF0B819022FBFD3900C1B094 /* YYThreadSafeDictionary.m in Sources */,
+				FF0B81D522FC173500C1B094 /* ZBURLParameters.m in Sources */,
+				FF0B819422FBFD3900C1B094 /* YYGestureRecognizer.m in Sources */,
+				FF0B81CD22FC171800C1B094 /* ZBKeyedSubscript.m in Sources */,
+				FF0B819622FBFD3900C1B094 /* YYFileHash.m in Sources */,
+				FF0B81C922FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
+				FF0B81A022FC001600C1B094 /* ZBButton.m in Sources */,
+				FF0B814722FBC0A400C1B094 /* ZBReflection.m in Sources */,
+				FF0B813E22FBBE0800C1B094 /* ZBRouter.m in Sources */,
 				FF0B812322FBACC900C1B094 /* OptimusPrimeTests.m in Sources */,
+				FF0B819222FBFD3900C1B094 /* YYKeychain.m in Sources */,
+				FF0B815A22FBF4CB00C1B094 /* ZBControl.m in Sources */,
+				FF0B819A22FBFD3900C1B094 /* YYThreadSafeArray.m in Sources */,
+				FF0B815522FBC12400C1B094 /* NSError+ZBModelException.m in Sources */,
+				FF0B818E22FBFD3900C1B094 /* YYWeakProxy.m in Sources */,
+				FF0B815122FBC11800C1B094 /* NSError+ZBExtension.m in Sources */,
+				FF0B81D122FC172600C1B094 /* ZBHTTPRequest.m in Sources */,
+				FF0B819822FBFD3900C1B094 /* YYTimer.m in Sources */,
+				FF0B814322FBC06600C1B094 /* ZBObject.m in Sources */,
+				FF0B81B222FC0B8000C1B094 /* ZBHTTPService.m in Sources */,
+				FF0B81A822FC01D600C1B094 /* ZBTableView.m in Sources */,
+				FF0B81DE22FC269700C1B094 /* ZBUser.m in Sources */,
+				FF0B81C122FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m in Sources */,
+				FF0B81AD22FC03CE00C1B094 /* ZBViewModel.m in Sources */,
+				FF0B819C22FBFD3900C1B094 /* YYReachability.m in Sources */,
+				FF0B81A422FC00BF00C1B094 /* ZBImageView.m in Sources */,
+				FF0B814B22FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,7 +881,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y5WX43KK4M;
-				INFOPLIST_FILE = OptimusPrime/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OptimusPrime/Macros/OptimusPrime.pch";
+				INFOPLIST_FILE = OptimusPrime/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,7 +901,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y5WX43KK4M;
-				INFOPLIST_FILE = OptimusPrime/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OptimusPrime/Macros/OptimusPrime.pch";
+				INFOPLIST_FILE = OptimusPrime/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

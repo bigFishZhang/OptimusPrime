@@ -88,6 +88,34 @@
 		FFE4A41B22FD4E0A0022D2A1 /* YYThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40C22FD4E0A0022D2A1 /* YYThreadSafeArray.m */; };
 		FFE4A41C22FD4E0A0022D2A1 /* YYReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40D22FD4E0A0022D2A1 /* YYReachability.m */; };
 		FFE4A41D22FD4E0A0022D2A1 /* YYReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40D22FD4E0A0022D2A1 /* YYReachability.m */; };
+		FFE4A42222FD536C0022D2A1 /* ZBViewModelServicesImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A42122FD536C0022D2A1 /* ZBViewModelServicesImpl.m */; };
+		FFE4A42322FD536C0022D2A1 /* ZBViewModelServicesImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A42122FD536C0022D2A1 /* ZBViewModelServicesImpl.m */; };
+		FFE4A42622FD53810022D2A1 /* ZBTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A42522FD53810022D2A1 /* ZBTableViewModel.m */; };
+		FFE4A42722FD53810022D2A1 /* ZBTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A42522FD53810022D2A1 /* ZBTableViewModel.m */; };
+		FFE4A42A22FD53910022D2A1 /* ZBWebViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A42922FD53910022D2A1 /* ZBWebViewModel.m */; };
+		FFE4A42B22FD53910022D2A1 /* ZBWebViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A42922FD53910022D2A1 /* ZBWebViewModel.m */; };
+		FFE4A42E22FD53AA0022D2A1 /* ZBTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A42D22FD53AA0022D2A1 /* ZBTabBarViewModel.m */; };
+		FFE4A42F22FD53AA0022D2A1 /* ZBTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A42D22FD53AA0022D2A1 /* ZBTabBarViewModel.m */; };
+		FFE4A43222FD53BC0022D2A1 /* ZBCommonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A43122FD53BC0022D2A1 /* ZBCommonViewModel.m */; };
+		FFE4A43322FD53BC0022D2A1 /* ZBCommonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A43122FD53BC0022D2A1 /* ZBCommonViewModel.m */; };
+		FFE4A43622FD53E60022D2A1 /* ZBSegmentedControlViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A43522FD53E60022D2A1 /* ZBSegmentedControlViewModel.m */; };
+		FFE4A43722FD53E60022D2A1 /* ZBSegmentedControlViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A43522FD53E60022D2A1 /* ZBSegmentedControlViewModel.m */; };
+		FFE4A43A22FD5A430022D2A1 /* ZBConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A43922FD5A430022D2A1 /* ZBConstant.m */; };
+		FFE4A43B22FD5A430022D2A1 /* ZBConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A43922FD5A430022D2A1 /* ZBConstant.m */; };
+		FFE4A43E22FD7B490022D2A1 /* ZBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A43D22FD7B490022D2A1 /* ZBNavigationController.m */; };
+		FFE4A43F22FD7B490022D2A1 /* ZBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A43D22FD7B490022D2A1 /* ZBNavigationController.m */; };
+		FFE4A44222FD7B7A0022D2A1 /* ZBNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A44122FD7B7A0022D2A1 /* ZBNavigationControllerStack.m */; };
+		FFE4A44322FD7B7A0022D2A1 /* ZBNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A44122FD7B7A0022D2A1 /* ZBNavigationControllerStack.m */; };
+		FFE4A44622FD7B8E0022D2A1 /* ZBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A44522FD7B8E0022D2A1 /* ZBTableViewController.m */; };
+		FFE4A44722FD7B8E0022D2A1 /* ZBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A44522FD7B8E0022D2A1 /* ZBTableViewController.m */; };
+		FFE4A44A22FD7BA30022D2A1 /* ZBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A44922FD7BA30022D2A1 /* ZBWebViewController.m */; };
+		FFE4A44B22FD7BA30022D2A1 /* ZBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A44922FD7BA30022D2A1 /* ZBWebViewController.m */; };
+		FFE4A44E22FD7BB70022D2A1 /* ZBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A44D22FD7BB70022D2A1 /* ZBTabBarController.m */; };
+		FFE4A44F22FD7BB70022D2A1 /* ZBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A44D22FD7BB70022D2A1 /* ZBTabBarController.m */; };
+		FFE4A45222FD7BD00022D2A1 /* ZBCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A45122FD7BD00022D2A1 /* ZBCommonViewController.m */; };
+		FFE4A45322FD7BD00022D2A1 /* ZBCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A45122FD7BD00022D2A1 /* ZBCommonViewController.m */; };
+		FFE4A45622FD7BE60022D2A1 /* ZBSegmentedControlController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A45522FD7BE60022D2A1 /* ZBSegmentedControlController.m */; };
+		FFE4A45722FD7BE60022D2A1 /* ZBSegmentedControlController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A45522FD7BE60022D2A1 /* ZBSegmentedControlController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +227,36 @@
 		FFE4A40B22FD4E0A0022D2A1 /* YYTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimer.m; sourceTree = "<group>"; };
 		FFE4A40C22FD4E0A0022D2A1 /* YYThreadSafeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYThreadSafeArray.m; sourceTree = "<group>"; };
 		FFE4A40D22FD4E0A0022D2A1 /* YYReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYReachability.m; sourceTree = "<group>"; };
+		FFE4A41E22FD52740022D2A1 /* ZBViewModelServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBViewModelServices.h; sourceTree = "<group>"; };
+		FFE4A41F22FD52880022D2A1 /* ZBNavigationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBNavigationProtocol.h; sourceTree = "<group>"; };
+		FFE4A42022FD536C0022D2A1 /* ZBViewModelServicesImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBViewModelServicesImpl.h; sourceTree = "<group>"; };
+		FFE4A42122FD536C0022D2A1 /* ZBViewModelServicesImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBViewModelServicesImpl.m; sourceTree = "<group>"; };
+		FFE4A42422FD53810022D2A1 /* ZBTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBTableViewModel.h; sourceTree = "<group>"; };
+		FFE4A42522FD53810022D2A1 /* ZBTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTableViewModel.m; sourceTree = "<group>"; };
+		FFE4A42822FD53910022D2A1 /* ZBWebViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBWebViewModel.h; sourceTree = "<group>"; };
+		FFE4A42922FD53910022D2A1 /* ZBWebViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBWebViewModel.m; sourceTree = "<group>"; };
+		FFE4A42C22FD53AA0022D2A1 /* ZBTabBarViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBTabBarViewModel.h; sourceTree = "<group>"; };
+		FFE4A42D22FD53AA0022D2A1 /* ZBTabBarViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTabBarViewModel.m; sourceTree = "<group>"; };
+		FFE4A43022FD53BC0022D2A1 /* ZBCommonViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBCommonViewModel.h; sourceTree = "<group>"; };
+		FFE4A43122FD53BC0022D2A1 /* ZBCommonViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBCommonViewModel.m; sourceTree = "<group>"; };
+		FFE4A43422FD53E60022D2A1 /* ZBSegmentedControlViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBSegmentedControlViewModel.h; sourceTree = "<group>"; };
+		FFE4A43522FD53E60022D2A1 /* ZBSegmentedControlViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBSegmentedControlViewModel.m; sourceTree = "<group>"; };
+		FFE4A43822FD5A430022D2A1 /* ZBConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBConstant.h; sourceTree = "<group>"; };
+		FFE4A43922FD5A430022D2A1 /* ZBConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBConstant.m; sourceTree = "<group>"; };
+		FFE4A43C22FD7B490022D2A1 /* ZBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBNavigationController.h; sourceTree = "<group>"; };
+		FFE4A43D22FD7B490022D2A1 /* ZBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBNavigationController.m; sourceTree = "<group>"; };
+		FFE4A44022FD7B7A0022D2A1 /* ZBNavigationControllerStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBNavigationControllerStack.h; sourceTree = "<group>"; };
+		FFE4A44122FD7B7A0022D2A1 /* ZBNavigationControllerStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBNavigationControllerStack.m; sourceTree = "<group>"; };
+		FFE4A44422FD7B8E0022D2A1 /* ZBTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBTableViewController.h; sourceTree = "<group>"; };
+		FFE4A44522FD7B8E0022D2A1 /* ZBTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTableViewController.m; sourceTree = "<group>"; };
+		FFE4A44822FD7BA30022D2A1 /* ZBWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBWebViewController.h; sourceTree = "<group>"; };
+		FFE4A44922FD7BA30022D2A1 /* ZBWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBWebViewController.m; sourceTree = "<group>"; };
+		FFE4A44C22FD7BB70022D2A1 /* ZBTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBTabBarController.h; sourceTree = "<group>"; };
+		FFE4A44D22FD7BB70022D2A1 /* ZBTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTabBarController.m; sourceTree = "<group>"; };
+		FFE4A45022FD7BD00022D2A1 /* ZBCommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBCommonViewController.h; sourceTree = "<group>"; };
+		FFE4A45122FD7BD00022D2A1 /* ZBCommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBCommonViewController.m; sourceTree = "<group>"; };
+		FFE4A45422FD7BE60022D2A1 /* ZBSegmentedControlController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBSegmentedControlController.h; sourceTree = "<group>"; };
+		FFE4A45522FD7BE60022D2A1 /* ZBSegmentedControlController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBSegmentedControlController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,6 +366,8 @@
 				FF0B81D622FC1B0800C1B094 /* ZBURLConfigure.h */,
 				FF0B81E022FC2AE100C1B094 /* ZBConstInline.h */,
 				FFE4A3A522FD0A390022D2A1 /* ZBMacros.h */,
+				FFE4A43822FD5A430022D2A1 /* ZBConstant.h */,
+				FFE4A43922FD5A430022D2A1 /* ZBConstant.m */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -388,8 +448,22 @@
 		FF0B813722FBBDCA00C1B094 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				FFE4A41F22FD52880022D2A1 /* ZBNavigationProtocol.h */,
+				FFE4A41E22FD52740022D2A1 /* ZBViewModelServices.h */,
+				FFE4A42022FD536C0022D2A1 /* ZBViewModelServicesImpl.h */,
+				FFE4A42122FD536C0022D2A1 /* ZBViewModelServicesImpl.m */,
 				FF0B81AA22FC03CE00C1B094 /* ZBViewModel.h */,
 				FF0B81AB22FC03CE00C1B094 /* ZBViewModel.m */,
+				FFE4A42422FD53810022D2A1 /* ZBTableViewModel.h */,
+				FFE4A42522FD53810022D2A1 /* ZBTableViewModel.m */,
+				FFE4A42822FD53910022D2A1 /* ZBWebViewModel.h */,
+				FFE4A42922FD53910022D2A1 /* ZBWebViewModel.m */,
+				FFE4A42C22FD53AA0022D2A1 /* ZBTabBarViewModel.h */,
+				FFE4A42D22FD53AA0022D2A1 /* ZBTabBarViewModel.m */,
+				FFE4A43022FD53BC0022D2A1 /* ZBCommonViewModel.h */,
+				FFE4A43122FD53BC0022D2A1 /* ZBCommonViewModel.m */,
+				FFE4A43422FD53E60022D2A1 /* ZBSegmentedControlViewModel.h */,
+				FFE4A43522FD53E60022D2A1 /* ZBSegmentedControlViewModel.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -399,6 +473,20 @@
 			children = (
 				FFE4A3B722FD1AC70022D2A1 /* ZBViewController.h */,
 				FFE4A3B822FD1AC70022D2A1 /* ZBViewController.m */,
+				FFE4A43C22FD7B490022D2A1 /* ZBNavigationController.h */,
+				FFE4A43D22FD7B490022D2A1 /* ZBNavigationController.m */,
+				FFE4A44022FD7B7A0022D2A1 /* ZBNavigationControllerStack.h */,
+				FFE4A44122FD7B7A0022D2A1 /* ZBNavigationControllerStack.m */,
+				FFE4A44422FD7B8E0022D2A1 /* ZBTableViewController.h */,
+				FFE4A44522FD7B8E0022D2A1 /* ZBTableViewController.m */,
+				FFE4A44822FD7BA30022D2A1 /* ZBWebViewController.h */,
+				FFE4A44922FD7BA30022D2A1 /* ZBWebViewController.m */,
+				FFE4A44C22FD7BB70022D2A1 /* ZBTabBarController.h */,
+				FFE4A44D22FD7BB70022D2A1 /* ZBTabBarController.m */,
+				FFE4A45022FD7BD00022D2A1 /* ZBCommonViewController.h */,
+				FFE4A45122FD7BD00022D2A1 /* ZBCommonViewController.m */,
+				FFE4A45422FD7BE60022D2A1 /* ZBSegmentedControlController.h */,
+				FFE4A45522FD7BE60022D2A1 /* ZBSegmentedControlController.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -740,6 +828,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE4A42622FD53810022D2A1 /* ZBTableViewModel.m in Sources */,
+				FFE4A45622FD7BE60022D2A1 /* ZBSegmentedControlController.m in Sources */,
 				FFE4A41C22FD4E0A0022D2A1 /* YYReachability.m in Sources */,
 				FFE4A3C522FD1DA90022D2A1 /* NSString+ZBValid.m in Sources */,
 				FFE4A41222FD4E0A0022D2A1 /* YYKeychain.m in Sources */,
@@ -748,18 +838,25 @@
 				FFE4A3AC22FD16250022D2A1 /* NSObject+ZBAlert.m in Sources */,
 				FFE4A40E22FD4E0A0022D2A1 /* YYWeakProxy.m in Sources */,
 				FFE4A41A22FD4E0A0022D2A1 /* YYThreadSafeArray.m in Sources */,
+				FFE4A43A22FD5A430022D2A1 /* ZBConstant.m in Sources */,
 				FF0B81C422FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m in Sources */,
 				FF0B814222FBC06600C1B094 /* ZBObject.m in Sources */,
 				FF0B815422FBC12400C1B094 /* NSError+ZBModelException.m in Sources */,
 				FFE4A3B522FD1A600022D2A1 /* ZBControllerHelper.m in Sources */,
+				FFE4A43E22FD7B490022D2A1 /* ZBNavigationController.m in Sources */,
 				FF0B81B122FC0B8000C1B094 /* ZBHTTPService.m in Sources */,
 				FF0B81A322FC00BF00C1B094 /* ZBImageView.m in Sources */,
+				FFE4A43222FD53BC0022D2A1 /* ZBCommonViewModel.m in Sources */,
+				FFE4A42E22FD53AA0022D2A1 /* ZBTabBarViewModel.m in Sources */,
+				FFE4A44A22FD7BA30022D2A1 /* ZBWebViewController.m in Sources */,
 				FFE4A41822FD4E0A0022D2A1 /* YYTimer.m in Sources */,
 				FF0B81A722FC01D600C1B094 /* ZBTableView.m in Sources */,
 				FF0B814A22FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m in Sources */,
 				FFE4A3C122FD1D9C0022D2A1 /* NSString+ZBSize.m in Sources */,
+				FFE4A42222FD536C0022D2A1 /* ZBViewModelServicesImpl.m in Sources */,
 				FF0B810E22FBACC700C1B094 /* ViewController.m in Sources */,
 				FF0B81C822FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
+				FFE4A45222FD7BD00022D2A1 /* ZBCommonViewController.m in Sources */,
 				FFE4A3B022FD16CA0022D2A1 /* NSObject+ZBExtension.m in Sources */,
 				FF0B811922FBACC900C1B094 /* main.m in Sources */,
 				FF0B81D422FC173500C1B094 /* ZBURLParameters.m in Sources */,
@@ -771,13 +868,18 @@
 				FFE4A41622FD4E0A0022D2A1 /* YYFileHash.m in Sources */,
 				FF0B819F22FC001600C1B094 /* ZBButton.m in Sources */,
 				FFE4A41422FD4E0A0022D2A1 /* YYGestureRecognizer.m in Sources */,
+				FFE4A42A22FD53910022D2A1 /* ZBWebViewModel.m in Sources */,
 				FF0B81AC22FC03CE00C1B094 /* ZBViewModel.m in Sources */,
+				FFE4A43622FD53E60022D2A1 /* ZBSegmentedControlViewModel.m in Sources */,
+				FFE4A44E22FD7BB70022D2A1 /* ZBTabBarController.m in Sources */,
+				FFE4A44622FD7B8E0022D2A1 /* ZBTableViewController.m in Sources */,
 				FFE4A3C922FD1DBB0022D2A1 /* NSString+ZBExtension.m in Sources */,
 				FFE4A41022FD4E0A0022D2A1 /* YYThreadSafeDictionary.m in Sources */,
 				FF0B81D022FC172600C1B094 /* ZBHTTPRequest.m in Sources */,
 				FF0B815022FBC11800C1B094 /* NSError+ZBExtension.m in Sources */,
 				FF0B81B922FC0C2200C1B094 /* ZBHTTPResponse.m in Sources */,
 				FF0B81CC22FC171800C1B094 /* ZBKeyedSubscript.m in Sources */,
+				FFE4A44222FD7B7A0022D2A1 /* ZBNavigationControllerStack.m in Sources */,
 				FF0B815922FBF4CB00C1B094 /* ZBControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -787,6 +889,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0B81C522FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m in Sources */,
+				FFE4A42B22FD53910022D2A1 /* ZBWebViewModel.m in Sources */,
 				FF0B81BA22FC0C2200C1B094 /* ZBHTTPResponse.m in Sources */,
 				FF0B81D522FC173500C1B094 /* ZBURLParameters.m in Sources */,
 				FF0B81CD22FC171800C1B094 /* ZBKeyedSubscript.m in Sources */,
@@ -794,35 +897,48 @@
 				FF0B81C922FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
 				FFE4A41322FD4E0A0022D2A1 /* YYKeychain.m in Sources */,
 				FF0B81A022FC001600C1B094 /* ZBButton.m in Sources */,
+				FFE4A42722FD53810022D2A1 /* ZBTableViewModel.m in Sources */,
 				FF0B814722FBC0A400C1B094 /* ZBReflection.m in Sources */,
+				FFE4A45322FD7BD00022D2A1 /* ZBCommonViewController.m in Sources */,
 				FFE4A3BE22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.m in Sources */,
 				FFE4A41722FD4E0A0022D2A1 /* YYFileHash.m in Sources */,
 				FF0B813E22FBBE0800C1B094 /* ZBRouter.m in Sources */,
 				FFE4A3C622FD1DA90022D2A1 /* NSString+ZBValid.m in Sources */,
+				FFE4A43722FD53E60022D2A1 /* ZBSegmentedControlViewModel.m in Sources */,
 				FF0B812322FBACC900C1B094 /* OptimusPrimeTests.m in Sources */,
 				FF0B815A22FBF4CB00C1B094 /* ZBControl.m in Sources */,
 				FFE4A3CA22FD1DBB0022D2A1 /* NSString+ZBExtension.m in Sources */,
+				FFE4A45722FD7BE60022D2A1 /* ZBSegmentedControlController.m in Sources */,
 				FFE4A3BA22FD1AC70022D2A1 /* ZBViewController.m in Sources */,
 				FFE4A40F22FD4E0A0022D2A1 /* YYWeakProxy.m in Sources */,
+				FFE4A43B22FD5A430022D2A1 /* ZBConstant.m in Sources */,
 				FFE4A3B622FD1A600022D2A1 /* ZBControllerHelper.m in Sources */,
 				FFE4A41922FD4E0A0022D2A1 /* YYTimer.m in Sources */,
 				FF0B815522FBC12400C1B094 /* NSError+ZBModelException.m in Sources */,
 				FFE4A41122FD4E0A0022D2A1 /* YYThreadSafeDictionary.m in Sources */,
 				FFE4A3AD22FD16250022D2A1 /* NSObject+ZBAlert.m in Sources */,
 				FF0B815122FBC11800C1B094 /* NSError+ZBExtension.m in Sources */,
+				FFE4A44322FD7B7A0022D2A1 /* ZBNavigationControllerStack.m in Sources */,
 				FF0B81D122FC172600C1B094 /* ZBHTTPRequest.m in Sources */,
+				FFE4A43322FD53BC0022D2A1 /* ZBCommonViewModel.m in Sources */,
+				FFE4A43F22FD7B490022D2A1 /* ZBNavigationController.m in Sources */,
 				FF0B814322FBC06600C1B094 /* ZBObject.m in Sources */,
 				FF0B81B222FC0B8000C1B094 /* ZBHTTPService.m in Sources */,
 				FFE4A41B22FD4E0A0022D2A1 /* YYThreadSafeArray.m in Sources */,
 				FF0B81A822FC01D600C1B094 /* ZBTableView.m in Sources */,
 				FF0B81DE22FC269700C1B094 /* ZBUser.m in Sources */,
+				FFE4A42F22FD53AA0022D2A1 /* ZBTabBarViewModel.m in Sources */,
+				FFE4A42322FD536C0022D2A1 /* ZBViewModelServicesImpl.m in Sources */,
 				FFE4A3B122FD16CA0022D2A1 /* NSObject+ZBExtension.m in Sources */,
 				FF0B81C122FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m in Sources */,
+				FFE4A44B22FD7BA30022D2A1 /* ZBWebViewController.m in Sources */,
 				FF0B81AD22FC03CE00C1B094 /* ZBViewModel.m in Sources */,
+				FFE4A44722FD7B8E0022D2A1 /* ZBTableViewController.m in Sources */,
 				FFE4A3C222FD1D9C0022D2A1 /* NSString+ZBSize.m in Sources */,
 				FF0B81A422FC00BF00C1B094 /* ZBImageView.m in Sources */,
 				FFE4A41522FD4E0A0022D2A1 /* YYGestureRecognizer.m in Sources */,
 				FF0B814B22FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m in Sources */,
+				FFE4A44F22FD7BB70022D2A1 /* ZBTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

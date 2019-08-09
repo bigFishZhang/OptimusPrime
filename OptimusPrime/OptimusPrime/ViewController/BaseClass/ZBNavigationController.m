@@ -1,24 +1,23 @@
 //
-//  ZBViewController.m
+//  ZBNavigationController.m
 //  OptimusPrime
 //
 //  Created by bigfish on 2019/8/9.
 //  Copyright © 2019 zzb. All rights reserved.
 //
 
-#import "ZBViewController.h"
+#import "ZBNavigationController.h"
 
-@interface ZBViewController ()
+@interface ZBNavigationController ()
 
 @end
 
-@implementation ZBViewController
+@implementation ZBNavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-
 
 
 @end

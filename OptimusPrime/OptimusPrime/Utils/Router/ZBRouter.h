@@ -7,11 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import "ZBViewController.h"
 
 @interface ZBRouter : NSObject
 
+/// Retrieves the shared router instance.
+///
+/// Returns the shared router instance.
++ (instancetype)sharedInstance;
+
+/// Retrieves the view corresponding to the given view model.
+///
+/// viewModel - The view model
+///
+/// Returns the view corresponding to the given view model.
+- (ZBViewController *)viewControllerForViewModel:(ZBViewModel *)viewModel;
+
 @end
 
-NS_ASSUME_NONNULL_END
+

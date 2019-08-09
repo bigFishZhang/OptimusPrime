@@ -30,22 +30,6 @@
 		FF0B815522FBC12400C1B094 /* NSError+ZBModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B815322FBC12400C1B094 /* NSError+ZBModelException.m */; };
 		FF0B815922FBF4CB00C1B094 /* ZBControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B815822FBF4CB00C1B094 /* ZBControl.m */; };
 		FF0B815A22FBF4CB00C1B094 /* ZBControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B815822FBF4CB00C1B094 /* ZBControl.m */; };
-		FF0B818D22FBFD3900C1B094 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B817D22FBFD3900C1B094 /* YYWeakProxy.m */; };
-		FF0B818E22FBFD3900C1B094 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B817D22FBFD3900C1B094 /* YYWeakProxy.m */; };
-		FF0B818F22FBFD3900C1B094 /* YYThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B817F22FBFD3900C1B094 /* YYThreadSafeDictionary.m */; };
-		FF0B819022FBFD3900C1B094 /* YYThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B817F22FBFD3900C1B094 /* YYThreadSafeDictionary.m */; };
-		FF0B819122FBFD3900C1B094 /* YYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818722FBFD3900C1B094 /* YYKeychain.m */; };
-		FF0B819222FBFD3900C1B094 /* YYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818722FBFD3900C1B094 /* YYKeychain.m */; };
-		FF0B819322FBFD3900C1B094 /* YYGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818822FBFD3900C1B094 /* YYGestureRecognizer.m */; };
-		FF0B819422FBFD3900C1B094 /* YYGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818822FBFD3900C1B094 /* YYGestureRecognizer.m */; };
-		FF0B819522FBFD3900C1B094 /* YYFileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818922FBFD3900C1B094 /* YYFileHash.m */; };
-		FF0B819622FBFD3900C1B094 /* YYFileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818922FBFD3900C1B094 /* YYFileHash.m */; };
-		FF0B819722FBFD3900C1B094 /* YYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818A22FBFD3900C1B094 /* YYTimer.m */; };
-		FF0B819822FBFD3900C1B094 /* YYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818A22FBFD3900C1B094 /* YYTimer.m */; };
-		FF0B819922FBFD3900C1B094 /* YYThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818B22FBFD3900C1B094 /* YYThreadSafeArray.m */; };
-		FF0B819A22FBFD3900C1B094 /* YYThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818B22FBFD3900C1B094 /* YYThreadSafeArray.m */; };
-		FF0B819B22FBFD3900C1B094 /* YYReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818C22FBFD3900C1B094 /* YYReachability.m */; };
-		FF0B819C22FBFD3900C1B094 /* YYReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B818C22FBFD3900C1B094 /* YYReachability.m */; };
 		FF0B819F22FC001600C1B094 /* ZBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B819E22FC001600C1B094 /* ZBButton.m */; };
 		FF0B81A022FC001600C1B094 /* ZBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B819E22FC001600C1B094 /* ZBButton.m */; };
 		FF0B81A322FC00BF00C1B094 /* ZBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81A222FC00BF00C1B094 /* ZBImageView.m */; };
@@ -72,6 +56,38 @@
 		FF0B81D522FC173500C1B094 /* ZBURLParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81D322FC173500C1B094 /* ZBURLParameters.m */; };
 		FF0B81DD22FC269700C1B094 /* ZBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81DC22FC269700C1B094 /* ZBUser.m */; };
 		FF0B81DE22FC269700C1B094 /* ZBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81DC22FC269700C1B094 /* ZBUser.m */; };
+		FFE4A3AC22FD16250022D2A1 /* NSObject+ZBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3AB22FD16250022D2A1 /* NSObject+ZBAlert.m */; };
+		FFE4A3AD22FD16250022D2A1 /* NSObject+ZBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3AB22FD16250022D2A1 /* NSObject+ZBAlert.m */; };
+		FFE4A3B022FD16CA0022D2A1 /* NSObject+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3AF22FD16CA0022D2A1 /* NSObject+ZBExtension.m */; };
+		FFE4A3B122FD16CA0022D2A1 /* NSObject+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3AF22FD16CA0022D2A1 /* NSObject+ZBExtension.m */; };
+		FFE4A3B522FD1A600022D2A1 /* ZBControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3B422FD1A600022D2A1 /* ZBControllerHelper.m */; };
+		FFE4A3B622FD1A600022D2A1 /* ZBControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3B422FD1A600022D2A1 /* ZBControllerHelper.m */; };
+		FFE4A3B922FD1AC70022D2A1 /* ZBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3B822FD1AC70022D2A1 /* ZBViewController.m */; };
+		FFE4A3BA22FD1AC70022D2A1 /* ZBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3B822FD1AC70022D2A1 /* ZBViewController.m */; };
+		FFE4A3BD22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3BC22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.m */; };
+		FFE4A3BE22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3BC22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.m */; };
+		FFE4A3C122FD1D9C0022D2A1 /* NSString+ZBSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3C022FD1D9C0022D2A1 /* NSString+ZBSize.m */; };
+		FFE4A3C222FD1D9C0022D2A1 /* NSString+ZBSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3C022FD1D9C0022D2A1 /* NSString+ZBSize.m */; };
+		FFE4A3C522FD1DA90022D2A1 /* NSString+ZBValid.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3C422FD1DA90022D2A1 /* NSString+ZBValid.m */; };
+		FFE4A3C622FD1DA90022D2A1 /* NSString+ZBValid.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3C422FD1DA90022D2A1 /* NSString+ZBValid.m */; };
+		FFE4A3C922FD1DBB0022D2A1 /* NSString+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3C822FD1DBB0022D2A1 /* NSString+ZBExtension.m */; };
+		FFE4A3CA22FD1DBB0022D2A1 /* NSString+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3C822FD1DBB0022D2A1 /* NSString+ZBExtension.m */; };
+		FFE4A40E22FD4E0A0022D2A1 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3FE22FD4E0A0022D2A1 /* YYWeakProxy.m */; };
+		FFE4A40F22FD4E0A0022D2A1 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3FE22FD4E0A0022D2A1 /* YYWeakProxy.m */; };
+		FFE4A41022FD4E0A0022D2A1 /* YYThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40022FD4E0A0022D2A1 /* YYThreadSafeDictionary.m */; };
+		FFE4A41122FD4E0A0022D2A1 /* YYThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40022FD4E0A0022D2A1 /* YYThreadSafeDictionary.m */; };
+		FFE4A41222FD4E0A0022D2A1 /* YYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40822FD4E0A0022D2A1 /* YYKeychain.m */; };
+		FFE4A41322FD4E0A0022D2A1 /* YYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40822FD4E0A0022D2A1 /* YYKeychain.m */; };
+		FFE4A41422FD4E0A0022D2A1 /* YYGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40922FD4E0A0022D2A1 /* YYGestureRecognizer.m */; };
+		FFE4A41522FD4E0A0022D2A1 /* YYGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40922FD4E0A0022D2A1 /* YYGestureRecognizer.m */; };
+		FFE4A41622FD4E0A0022D2A1 /* YYFileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40A22FD4E0A0022D2A1 /* YYFileHash.m */; };
+		FFE4A41722FD4E0A0022D2A1 /* YYFileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40A22FD4E0A0022D2A1 /* YYFileHash.m */; };
+		FFE4A41822FD4E0A0022D2A1 /* YYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40B22FD4E0A0022D2A1 /* YYTimer.m */; };
+		FFE4A41922FD4E0A0022D2A1 /* YYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40B22FD4E0A0022D2A1 /* YYTimer.m */; };
+		FFE4A41A22FD4E0A0022D2A1 /* YYThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40C22FD4E0A0022D2A1 /* YYThreadSafeArray.m */; };
+		FFE4A41B22FD4E0A0022D2A1 /* YYThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40C22FD4E0A0022D2A1 /* YYThreadSafeArray.m */; };
+		FFE4A41C22FD4E0A0022D2A1 /* YYReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40D22FD4E0A0022D2A1 /* YYReachability.m */; };
+		FFE4A41D22FD4E0A0022D2A1 /* YYReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A40D22FD4E0A0022D2A1 /* YYReachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,22 +135,6 @@
 		FF0B815322FBC12400C1B094 /* NSError+ZBModelException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+ZBModelException.m"; sourceTree = "<group>"; };
 		FF0B815722FBF4CB00C1B094 /* ZBControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBControl.h; sourceTree = "<group>"; };
 		FF0B815822FBF4CB00C1B094 /* ZBControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBControl.m; sourceTree = "<group>"; };
-		FF0B817D22FBFD3900C1B094 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
-		FF0B817E22FBFD3900C1B094 /* YYKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKeychain.h; sourceTree = "<group>"; };
-		FF0B817F22FBFD3900C1B094 /* YYThreadSafeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYThreadSafeDictionary.m; sourceTree = "<group>"; };
-		FF0B818022FBFD3900C1B094 /* YYFileHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFileHash.h; sourceTree = "<group>"; };
-		FF0B818122FBFD3900C1B094 /* YYGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGestureRecognizer.h; sourceTree = "<group>"; };
-		FF0B818222FBFD3900C1B094 /* YYReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYReachability.h; sourceTree = "<group>"; };
-		FF0B818322FBFD3900C1B094 /* YYThreadSafeArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYThreadSafeArray.h; sourceTree = "<group>"; };
-		FF0B818422FBFD3900C1B094 /* YYTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimer.h; sourceTree = "<group>"; };
-		FF0B818522FBFD3900C1B094 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
-		FF0B818622FBFD3900C1B094 /* YYThreadSafeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYThreadSafeDictionary.h; sourceTree = "<group>"; };
-		FF0B818722FBFD3900C1B094 /* YYKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKeychain.m; sourceTree = "<group>"; };
-		FF0B818822FBFD3900C1B094 /* YYGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGestureRecognizer.m; sourceTree = "<group>"; };
-		FF0B818922FBFD3900C1B094 /* YYFileHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFileHash.m; sourceTree = "<group>"; };
-		FF0B818A22FBFD3900C1B094 /* YYTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimer.m; sourceTree = "<group>"; };
-		FF0B818B22FBFD3900C1B094 /* YYThreadSafeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYThreadSafeArray.m; sourceTree = "<group>"; };
-		FF0B818C22FBFD3900C1B094 /* YYReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYReachability.m; sourceTree = "<group>"; };
 		FF0B819D22FC001600C1B094 /* ZBButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBButton.h; sourceTree = "<group>"; };
 		FF0B819E22FC001600C1B094 /* ZBButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBButton.m; sourceTree = "<group>"; };
 		FF0B81A122FC00BF00C1B094 /* ZBImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBImageView.h; sourceTree = "<group>"; };
@@ -164,6 +164,41 @@
 		FF0B81DB22FC269700C1B094 /* ZBUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBUser.h; sourceTree = "<group>"; };
 		FF0B81DC22FC269700C1B094 /* ZBUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBUser.m; sourceTree = "<group>"; };
 		FF0B81E022FC2AE100C1B094 /* ZBConstInline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBConstInline.h; sourceTree = "<group>"; };
+		FFE4A3A522FD0A390022D2A1 /* ZBMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBMacros.h; sourceTree = "<group>"; };
+		FFE4A3A922FD16110022D2A1 /* NSObject+ZB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZB.h"; sourceTree = "<group>"; };
+		FFE4A3AA22FD16250022D2A1 /* NSObject+ZBAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZBAlert.h"; sourceTree = "<group>"; };
+		FFE4A3AB22FD16250022D2A1 /* NSObject+ZBAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZBAlert.m"; sourceTree = "<group>"; };
+		FFE4A3AE22FD16CA0022D2A1 /* NSObject+ZBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZBExtension.h"; sourceTree = "<group>"; };
+		FFE4A3AF22FD16CA0022D2A1 /* NSObject+ZBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZBExtension.m"; sourceTree = "<group>"; };
+		FFE4A3B322FD1A600022D2A1 /* ZBControllerHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBControllerHelper.h; sourceTree = "<group>"; };
+		FFE4A3B422FD1A600022D2A1 /* ZBControllerHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBControllerHelper.m; sourceTree = "<group>"; };
+		FFE4A3B722FD1AC70022D2A1 /* ZBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBViewController.h; sourceTree = "<group>"; };
+		FFE4A3B822FD1AC70022D2A1 /* ZBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBViewController.m; sourceTree = "<group>"; };
+		FFE4A3BB22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ZBSize.h"; sourceTree = "<group>"; };
+		FFE4A3BC22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ZBSize.m"; sourceTree = "<group>"; };
+		FFE4A3BF22FD1D9C0022D2A1 /* NSString+ZBSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZBSize.h"; sourceTree = "<group>"; };
+		FFE4A3C022FD1D9C0022D2A1 /* NSString+ZBSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZBSize.m"; sourceTree = "<group>"; };
+		FFE4A3C322FD1DA90022D2A1 /* NSString+ZBValid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZBValid.h"; sourceTree = "<group>"; };
+		FFE4A3C422FD1DA90022D2A1 /* NSString+ZBValid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZBValid.m"; sourceTree = "<group>"; };
+		FFE4A3C722FD1DBB0022D2A1 /* NSString+ZBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZBExtension.h"; sourceTree = "<group>"; };
+		FFE4A3C822FD1DBB0022D2A1 /* NSString+ZBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZBExtension.m"; sourceTree = "<group>"; };
+		FFE4A3CB22FD4BAF0022D2A1 /* NSString+ZB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZB.h"; sourceTree = "<group>"; };
+		FFE4A3FE22FD4E0A0022D2A1 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		FFE4A3FF22FD4E0A0022D2A1 /* YYKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKeychain.h; sourceTree = "<group>"; };
+		FFE4A40022FD4E0A0022D2A1 /* YYThreadSafeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYThreadSafeDictionary.m; sourceTree = "<group>"; };
+		FFE4A40122FD4E0A0022D2A1 /* YYFileHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFileHash.h; sourceTree = "<group>"; };
+		FFE4A40222FD4E0A0022D2A1 /* YYGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGestureRecognizer.h; sourceTree = "<group>"; };
+		FFE4A40322FD4E0A0022D2A1 /* YYReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYReachability.h; sourceTree = "<group>"; };
+		FFE4A40422FD4E0A0022D2A1 /* YYThreadSafeArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYThreadSafeArray.h; sourceTree = "<group>"; };
+		FFE4A40522FD4E0A0022D2A1 /* YYTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimer.h; sourceTree = "<group>"; };
+		FFE4A40622FD4E0A0022D2A1 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		FFE4A40722FD4E0A0022D2A1 /* YYThreadSafeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYThreadSafeDictionary.h; sourceTree = "<group>"; };
+		FFE4A40822FD4E0A0022D2A1 /* YYKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKeychain.m; sourceTree = "<group>"; };
+		FFE4A40922FD4E0A0022D2A1 /* YYGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGestureRecognizer.m; sourceTree = "<group>"; };
+		FFE4A40A22FD4E0A0022D2A1 /* YYFileHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFileHash.m; sourceTree = "<group>"; };
+		FFE4A40B22FD4E0A0022D2A1 /* YYTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimer.m; sourceTree = "<group>"; };
+		FFE4A40C22FD4E0A0022D2A1 /* YYThreadSafeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYThreadSafeArray.m; sourceTree = "<group>"; };
+		FFE4A40D22FD4E0A0022D2A1 /* YYReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYReachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +307,7 @@
 				FF0B813F22FBBEF600C1B094 /* OptimusPrime.pch */,
 				FF0B81D622FC1B0800C1B094 /* ZBURLConfigure.h */,
 				FF0B81E022FC2AE100C1B094 /* ZBConstInline.h */,
+				FFE4A3A522FD0A390022D2A1 /* ZBMacros.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -296,6 +332,7 @@
 		FF0B813122FBBBA700C1B094 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FFE4A3B222FD1A3E0022D2A1 /* Helper */,
 				FF0B815622FBC17200C1B094 /* HTTP */,
 				FF0B814C22FBC0E400C1B094 /* Category */,
 				FF0B813A22FBBDEE00C1B094 /* Router */,
@@ -306,7 +343,7 @@
 		FF0B813222FBBBA700C1B094 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				FF0B817C22FBFD3900C1B094 /* YYKit */,
+				FFE4A3FD22FD4E0A0022D2A1 /* YYKit */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -360,6 +397,8 @@
 		FF0B813822FBBDD200C1B094 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				FFE4A3B722FD1AC70022D2A1 /* ZBViewController.h */,
+				FFE4A3B822FD1AC70022D2A1 /* ZBViewController.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -391,6 +430,8 @@
 		FF0B814C22FBC0E400C1B094 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FFE4A3A722FD15D60022D2A1 /* NSString */,
+				FFE4A3A622FD15CE0022D2A1 /* NSObject */,
 				FF0B814D22FBC0F600C1B094 /* NSError */,
 			);
 			path = Category;
@@ -418,29 +459,6 @@
 				FF0B81B022FC0B8000C1B094 /* ZBHTTPService.m */,
 			);
 			path = HTTP;
-			sourceTree = "<group>";
-		};
-		FF0B817C22FBFD3900C1B094 /* YYKit */ = {
-			isa = PBXGroup;
-			children = (
-				FF0B817D22FBFD3900C1B094 /* YYWeakProxy.m */,
-				FF0B817E22FBFD3900C1B094 /* YYKeychain.h */,
-				FF0B817F22FBFD3900C1B094 /* YYThreadSafeDictionary.m */,
-				FF0B818022FBFD3900C1B094 /* YYFileHash.h */,
-				FF0B818122FBFD3900C1B094 /* YYGestureRecognizer.h */,
-				FF0B818222FBFD3900C1B094 /* YYReachability.h */,
-				FF0B818322FBFD3900C1B094 /* YYThreadSafeArray.h */,
-				FF0B818422FBFD3900C1B094 /* YYTimer.h */,
-				FF0B818522FBFD3900C1B094 /* YYWeakProxy.h */,
-				FF0B818622FBFD3900C1B094 /* YYThreadSafeDictionary.h */,
-				FF0B818722FBFD3900C1B094 /* YYKeychain.m */,
-				FF0B818822FBFD3900C1B094 /* YYGestureRecognizer.m */,
-				FF0B818922FBFD3900C1B094 /* YYFileHash.m */,
-				FF0B818A22FBFD3900C1B094 /* YYTimer.m */,
-				FF0B818B22FBFD3900C1B094 /* YYThreadSafeArray.m */,
-				FF0B818C22FBFD3900C1B094 /* YYReachability.m */,
-			);
-			path = YYKit;
 			sourceTree = "<group>";
 		};
 		FF0B81B322FC0B9F00C1B094 /* BaseModel */ = {
@@ -493,6 +511,66 @@
 				FF0B81DC22FC269700C1B094 /* ZBUser.m */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		FFE4A3A622FD15CE0022D2A1 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4A3A922FD16110022D2A1 /* NSObject+ZB.h */,
+				FFE4A3AA22FD16250022D2A1 /* NSObject+ZBAlert.h */,
+				FFE4A3AB22FD16250022D2A1 /* NSObject+ZBAlert.m */,
+				FFE4A3AE22FD16CA0022D2A1 /* NSObject+ZBExtension.h */,
+				FFE4A3AF22FD16CA0022D2A1 /* NSObject+ZBExtension.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		FFE4A3A722FD15D60022D2A1 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4A3BB22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.h */,
+				FFE4A3BC22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.m */,
+				FFE4A3BF22FD1D9C0022D2A1 /* NSString+ZBSize.h */,
+				FFE4A3C022FD1D9C0022D2A1 /* NSString+ZBSize.m */,
+				FFE4A3C322FD1DA90022D2A1 /* NSString+ZBValid.h */,
+				FFE4A3C422FD1DA90022D2A1 /* NSString+ZBValid.m */,
+				FFE4A3C722FD1DBB0022D2A1 /* NSString+ZBExtension.h */,
+				FFE4A3C822FD1DBB0022D2A1 /* NSString+ZBExtension.m */,
+				FFE4A3CB22FD4BAF0022D2A1 /* NSString+ZB.h */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		FFE4A3B222FD1A3E0022D2A1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4A3B322FD1A600022D2A1 /* ZBControllerHelper.h */,
+				FFE4A3B422FD1A600022D2A1 /* ZBControllerHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FFE4A3FD22FD4E0A0022D2A1 /* YYKit */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4A3FE22FD4E0A0022D2A1 /* YYWeakProxy.m */,
+				FFE4A3FF22FD4E0A0022D2A1 /* YYKeychain.h */,
+				FFE4A40022FD4E0A0022D2A1 /* YYThreadSafeDictionary.m */,
+				FFE4A40122FD4E0A0022D2A1 /* YYFileHash.h */,
+				FFE4A40222FD4E0A0022D2A1 /* YYGestureRecognizer.h */,
+				FFE4A40322FD4E0A0022D2A1 /* YYReachability.h */,
+				FFE4A40422FD4E0A0022D2A1 /* YYThreadSafeArray.h */,
+				FFE4A40522FD4E0A0022D2A1 /* YYTimer.h */,
+				FFE4A40622FD4E0A0022D2A1 /* YYWeakProxy.h */,
+				FFE4A40722FD4E0A0022D2A1 /* YYThreadSafeDictionary.h */,
+				FFE4A40822FD4E0A0022D2A1 /* YYKeychain.m */,
+				FFE4A40922FD4E0A0022D2A1 /* YYGestureRecognizer.m */,
+				FFE4A40A22FD4E0A0022D2A1 /* YYFileHash.m */,
+				FFE4A40B22FD4E0A0022D2A1 /* YYTimer.m */,
+				FFE4A40C22FD4E0A0022D2A1 /* YYThreadSafeArray.m */,
+				FFE4A40D22FD4E0A0022D2A1 /* YYReachability.m */,
+			);
+			path = YYKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -662,34 +740,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE4A41C22FD4E0A0022D2A1 /* YYReachability.m in Sources */,
+				FFE4A3C522FD1DA90022D2A1 /* NSString+ZBValid.m in Sources */,
+				FFE4A41222FD4E0A0022D2A1 /* YYKeychain.m in Sources */,
 				FF0B81C022FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m in Sources */,
-				FF0B819122FBFD3900C1B094 /* YYKeychain.m in Sources */,
-				FF0B819522FBFD3900C1B094 /* YYFileHash.m in Sources */,
 				FF0B814622FBC0A400C1B094 /* ZBReflection.m in Sources */,
+				FFE4A3AC22FD16250022D2A1 /* NSObject+ZBAlert.m in Sources */,
+				FFE4A40E22FD4E0A0022D2A1 /* YYWeakProxy.m in Sources */,
+				FFE4A41A22FD4E0A0022D2A1 /* YYThreadSafeArray.m in Sources */,
 				FF0B81C422FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m in Sources */,
 				FF0B814222FBC06600C1B094 /* ZBObject.m in Sources */,
-				FF0B818D22FBFD3900C1B094 /* YYWeakProxy.m in Sources */,
 				FF0B815422FBC12400C1B094 /* NSError+ZBModelException.m in Sources */,
+				FFE4A3B522FD1A600022D2A1 /* ZBControllerHelper.m in Sources */,
 				FF0B81B122FC0B8000C1B094 /* ZBHTTPService.m in Sources */,
 				FF0B81A322FC00BF00C1B094 /* ZBImageView.m in Sources */,
-				FF0B819322FBFD3900C1B094 /* YYGestureRecognizer.m in Sources */,
+				FFE4A41822FD4E0A0022D2A1 /* YYTimer.m in Sources */,
 				FF0B81A722FC01D600C1B094 /* ZBTableView.m in Sources */,
-				FF0B819722FBFD3900C1B094 /* YYTimer.m in Sources */,
 				FF0B814A22FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m in Sources */,
+				FFE4A3C122FD1D9C0022D2A1 /* NSString+ZBSize.m in Sources */,
 				FF0B810E22FBACC700C1B094 /* ViewController.m in Sources */,
 				FF0B81C822FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
-				FF0B818F22FBFD3900C1B094 /* YYThreadSafeDictionary.m in Sources */,
+				FFE4A3B022FD16CA0022D2A1 /* NSObject+ZBExtension.m in Sources */,
 				FF0B811922FBACC900C1B094 /* main.m in Sources */,
-				FF0B819B22FBFD3900C1B094 /* YYReachability.m in Sources */,
 				FF0B81D422FC173500C1B094 /* ZBURLParameters.m in Sources */,
 				FF0B813D22FBBE0800C1B094 /* ZBRouter.m in Sources */,
+				FFE4A3BD22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.m in Sources */,
+				FFE4A3B922FD1AC70022D2A1 /* ZBViewController.m in Sources */,
 				FF0B810B22FBACC700C1B094 /* AppDelegate.m in Sources */,
 				FF0B81DD22FC269700C1B094 /* ZBUser.m in Sources */,
+				FFE4A41622FD4E0A0022D2A1 /* YYFileHash.m in Sources */,
 				FF0B819F22FC001600C1B094 /* ZBButton.m in Sources */,
+				FFE4A41422FD4E0A0022D2A1 /* YYGestureRecognizer.m in Sources */,
 				FF0B81AC22FC03CE00C1B094 /* ZBViewModel.m in Sources */,
+				FFE4A3C922FD1DBB0022D2A1 /* NSString+ZBExtension.m in Sources */,
+				FFE4A41022FD4E0A0022D2A1 /* YYThreadSafeDictionary.m in Sources */,
 				FF0B81D022FC172600C1B094 /* ZBHTTPRequest.m in Sources */,
 				FF0B815022FBC11800C1B094 /* NSError+ZBExtension.m in Sources */,
-				FF0B819922FBFD3900C1B094 /* YYThreadSafeArray.m in Sources */,
 				FF0B81B922FC0C2200C1B094 /* ZBHTTPResponse.m in Sources */,
 				FF0B81CC22FC171800C1B094 /* ZBKeyedSubscript.m in Sources */,
 				FF0B815922FBF4CB00C1B094 /* ZBControl.m in Sources */,
@@ -702,32 +788,40 @@
 			files = (
 				FF0B81C522FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m in Sources */,
 				FF0B81BA22FC0C2200C1B094 /* ZBHTTPResponse.m in Sources */,
-				FF0B819022FBFD3900C1B094 /* YYThreadSafeDictionary.m in Sources */,
 				FF0B81D522FC173500C1B094 /* ZBURLParameters.m in Sources */,
-				FF0B819422FBFD3900C1B094 /* YYGestureRecognizer.m in Sources */,
 				FF0B81CD22FC171800C1B094 /* ZBKeyedSubscript.m in Sources */,
-				FF0B819622FBFD3900C1B094 /* YYFileHash.m in Sources */,
+				FFE4A41D22FD4E0A0022D2A1 /* YYReachability.m in Sources */,
 				FF0B81C922FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
+				FFE4A41322FD4E0A0022D2A1 /* YYKeychain.m in Sources */,
 				FF0B81A022FC001600C1B094 /* ZBButton.m in Sources */,
 				FF0B814722FBC0A400C1B094 /* ZBReflection.m in Sources */,
+				FFE4A3BE22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.m in Sources */,
+				FFE4A41722FD4E0A0022D2A1 /* YYFileHash.m in Sources */,
 				FF0B813E22FBBE0800C1B094 /* ZBRouter.m in Sources */,
+				FFE4A3C622FD1DA90022D2A1 /* NSString+ZBValid.m in Sources */,
 				FF0B812322FBACC900C1B094 /* OptimusPrimeTests.m in Sources */,
-				FF0B819222FBFD3900C1B094 /* YYKeychain.m in Sources */,
 				FF0B815A22FBF4CB00C1B094 /* ZBControl.m in Sources */,
-				FF0B819A22FBFD3900C1B094 /* YYThreadSafeArray.m in Sources */,
+				FFE4A3CA22FD1DBB0022D2A1 /* NSString+ZBExtension.m in Sources */,
+				FFE4A3BA22FD1AC70022D2A1 /* ZBViewController.m in Sources */,
+				FFE4A40F22FD4E0A0022D2A1 /* YYWeakProxy.m in Sources */,
+				FFE4A3B622FD1A600022D2A1 /* ZBControllerHelper.m in Sources */,
+				FFE4A41922FD4E0A0022D2A1 /* YYTimer.m in Sources */,
 				FF0B815522FBC12400C1B094 /* NSError+ZBModelException.m in Sources */,
-				FF0B818E22FBFD3900C1B094 /* YYWeakProxy.m in Sources */,
+				FFE4A41122FD4E0A0022D2A1 /* YYThreadSafeDictionary.m in Sources */,
+				FFE4A3AD22FD16250022D2A1 /* NSObject+ZBAlert.m in Sources */,
 				FF0B815122FBC11800C1B094 /* NSError+ZBExtension.m in Sources */,
 				FF0B81D122FC172600C1B094 /* ZBHTTPRequest.m in Sources */,
-				FF0B819822FBFD3900C1B094 /* YYTimer.m in Sources */,
 				FF0B814322FBC06600C1B094 /* ZBObject.m in Sources */,
 				FF0B81B222FC0B8000C1B094 /* ZBHTTPService.m in Sources */,
+				FFE4A41B22FD4E0A0022D2A1 /* YYThreadSafeArray.m in Sources */,
 				FF0B81A822FC01D600C1B094 /* ZBTableView.m in Sources */,
 				FF0B81DE22FC269700C1B094 /* ZBUser.m in Sources */,
+				FFE4A3B122FD16CA0022D2A1 /* NSObject+ZBExtension.m in Sources */,
 				FF0B81C122FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m in Sources */,
 				FF0B81AD22FC03CE00C1B094 /* ZBViewModel.m in Sources */,
-				FF0B819C22FBFD3900C1B094 /* YYReachability.m in Sources */,
+				FFE4A3C222FD1D9C0022D2A1 /* NSString+ZBSize.m in Sources */,
 				FF0B81A422FC00BF00C1B094 /* ZBImageView.m in Sources */,
+				FFE4A41522FD4E0A0022D2A1 /* YYGestureRecognizer.m in Sources */,
 				FF0B814B22FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

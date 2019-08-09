@@ -374,7 +374,7 @@ static id service_ = nil;
             // 设置时间格式
             [formatter setDateFormat:@"yyyyMMddHHmmss"];
             NSString *dateString = [formatter stringFromDate:[NSDate date]];
-            NSString *fileName = [NSString  stringWithFormat:@"senba_empty_%@_%zd.jpg", dateString , i];
+            NSString *fileName = [NSString  stringWithFormat:@"senba_empty_%@_%d.jpg", dateString , i];
             [formData appendPartWithFileData:fileData name:name fileName:fileName mimeType:ZBStringIsNotEmpty(mimeType)?mimeType:@"application/octet-stream"];
         }
     }]
@@ -740,10 +740,10 @@ static id service_ = nil;
     for (id key in sortedKeys) {
         /// value 为 empty 跳过
         if(ZBObjectIsNil(parameters[key])) continue;
-        NSString * value = [parameters[key] ZB_stringValueExtension];
+        NSString * value = [parameters[key] zb_stringValueExtension];
         if (ZBObjectIsNil(value)||!ZBStringIsNotEmpty(value)) continue;
-        value = [value sb_removeBothEndsWhitespaceAndNewline];
-        value = [value sb_URLEncoding];
+        value = [value zb_removeBothEndsWhitespaceAndNewline];
+        value = [value zb_URLEncoding];
         [kvs addObject:[NSString stringWithFormat:@"%@=%@",key,value]];
     }
     /// 拼接私钥
@@ -767,7 +767,7 @@ static id service_ = nil;
     AFHTTPRequestSerializer *requestSerializer = [AFHTTPRequestSerializer serializer];
     /// 配置请求头
     for (NSString *key in parameters) {
-        NSString *value = [[parameters[key] ZB_stringValueExtension] copy];
+        NSString *value = [[parameters[key] zb_stringValueExtension] copy];
         if (value.length==0) continue;
         /// value只能是字符串，否则崩溃
         [requestSerializer setValue:value forHTTPHeaderField:key];

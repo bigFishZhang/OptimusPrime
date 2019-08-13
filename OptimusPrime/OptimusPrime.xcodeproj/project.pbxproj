@@ -56,6 +56,44 @@
 		FF0B81D522FC173500C1B094 /* ZBURLParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81D322FC173500C1B094 /* ZBURLParameters.m */; };
 		FF0B81DD22FC269700C1B094 /* ZBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81DC22FC269700C1B094 /* ZBUser.m */; };
 		FF0B81DE22FC269700C1B094 /* ZBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B81DC22FC269700C1B094 /* ZBUser.m */; };
+		FF1EECA223016A0700DD7B09 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECA123016A0700DD7B09 /* HomePageViewController.m */; };
+		FF1EECA323016A0700DD7B09 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECA123016A0700DD7B09 /* HomePageViewController.m */; };
+		FF1EECA823016A4B00DD7B09 /* LoginBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECA723016A4B00DD7B09 /* LoginBaseViewModel.m */; };
+		FF1EECA923016A4B00DD7B09 /* LoginBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECA723016A4B00DD7B09 /* LoginBaseViewModel.m */; };
+		FF1EECAC23016A6300DD7B09 /* AccountLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECAB23016A6300DD7B09 /* AccountLoginViewModel.m */; };
+		FF1EECAD23016A6300DD7B09 /* AccountLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECAB23016A6300DD7B09 /* AccountLoginViewModel.m */; };
+		FF1EECB023016A8300DD7B09 /* NewFeatureViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECAF23016A8300DD7B09 /* NewFeatureViewModel.m */; };
+		FF1EECB123016A8300DD7B09 /* NewFeatureViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECAF23016A8300DD7B09 /* NewFeatureViewModel.m */; };
+		FF1EECB423016AA400DD7B09 /* BootLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECB323016AA400DD7B09 /* BootLoginViewModel.m */; };
+		FF1EECB523016AA400DD7B09 /* BootLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECB323016AA400DD7B09 /* BootLoginViewModel.m */; };
+		FF1EECBB23023F7B00DD7B09 /* ZBFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECBA23023F7B00DD7B09 /* ZBFileManager.m */; };
+		FF1EECBC23023F7B00DD7B09 /* ZBFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECBA23023F7B00DD7B09 /* ZBFileManager.m */; };
+		FF1EECC523024D4700DD7B09 /* SAMKeychain+ZBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECC423024D4700DD7B09 /* SAMKeychain+ZBUtil.m */; };
+		FF1EECC623024D4700DD7B09 /* SAMKeychain+ZBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECC423024D4700DD7B09 /* SAMKeychain+ZBUtil.m */; };
+		FF1EECCD23025E2800DD7B09 /* HomePageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECCC23025E2800DD7B09 /* HomePageViewModel.m */; };
+		FF1EECCE23025E2800DD7B09 /* HomePageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECCC23025E2800DD7B09 /* HomePageViewModel.m */; };
+		FF1EECDA2302614900DD7B09 /* MainFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECD92302614900DD7B09 /* MainFrameViewController.m */; };
+		FF1EECDB2302614900DD7B09 /* MainFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECD92302614900DD7B09 /* MainFrameViewController.m */; };
+		FF1EECDE2302617D00DD7B09 /* MainFrameViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECDD2302617D00DD7B09 /* MainFrameViewModel.m */; };
+		FF1EECDF2302617D00DD7B09 /* MainFrameViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECDD2302617D00DD7B09 /* MainFrameViewModel.m */; };
+		FF1EECE22302620A00DD7B09 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECE12302620A00DD7B09 /* ContactsViewController.m */; };
+		FF1EECE32302620A00DD7B09 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECE12302620A00DD7B09 /* ContactsViewController.m */; };
+		FF1EECE62302623300DD7B09 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECE52302623300DD7B09 /* DiscoverViewController.m */; };
+		FF1EECE72302623300DD7B09 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECE52302623300DD7B09 /* DiscoverViewController.m */; };
+		FF1EECEC2302632B00DD7B09 /* ZBCommonItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECEB2302632B00DD7B09 /* ZBCommonItemViewModel.m */; };
+		FF1EECED2302632B00DD7B09 /* ZBCommonItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECEB2302632B00DD7B09 /* ZBCommonItemViewModel.m */; };
+		FF1EECF02302635500DD7B09 /* ZBCommonGroupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECEF2302635500DD7B09 /* ZBCommonGroupViewModel.m */; };
+		FF1EECF12302635500DD7B09 /* ZBCommonGroupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECEF2302635500DD7B09 /* ZBCommonGroupViewModel.m */; };
+		FF1EECF8230265C600DD7B09 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECF7230265C600DD7B09 /* ProfileViewController.m */; };
+		FF1EECF9230265C600DD7B09 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1EECF7230265C600DD7B09 /* ProfileViewController.m */; };
+		FF39745022FE5D41006E3330 /* UIScrollView+ZBRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = FF39744F22FE5D41006E3330 /* UIScrollView+ZBRefresh.m */; };
+		FF39745122FE5D41006E3330 /* UIScrollView+ZBRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = FF39744F22FE5D41006E3330 /* UIScrollView+ZBRefresh.m */; };
+		FF39745522FE61A3006E3330 /* FBKVOController+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF39745422FE61A3006E3330 /* FBKVOController+ZBExtension.m */; };
+		FF39745622FE61A3006E3330 /* FBKVOController+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF39745422FE61A3006E3330 /* FBKVOController+ZBExtension.m */; };
+		FF39745A22FE6A91006E3330 /* ZBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF39745922FE6A91006E3330 /* ZBTabBar.m */; };
+		FF39745B22FE6A91006E3330 /* ZBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF39745922FE6A91006E3330 /* ZBTabBar.m */; };
+		FF39745F22FE6B42006E3330 /* UIImage+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF39745E22FE6B42006E3330 /* UIImage+ZBExtension.m */; };
+		FF39746022FE6B42006E3330 /* UIImage+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF39745E22FE6B42006E3330 /* UIImage+ZBExtension.m */; };
 		FFE4A3AC22FD16250022D2A1 /* NSObject+ZBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3AB22FD16250022D2A1 /* NSObject+ZBAlert.m */; };
 		FFE4A3AD22FD16250022D2A1 /* NSObject+ZBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3AB22FD16250022D2A1 /* NSObject+ZBAlert.m */; };
 		FFE4A3B022FD16CA0022D2A1 /* NSObject+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A3AF22FD16CA0022D2A1 /* NSObject+ZBExtension.m */; };
@@ -116,6 +154,14 @@
 		FFE4A45322FD7BD00022D2A1 /* ZBCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A45122FD7BD00022D2A1 /* ZBCommonViewController.m */; };
 		FFE4A45622FD7BE60022D2A1 /* ZBSegmentedControlController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A45522FD7BE60022D2A1 /* ZBSegmentedControlController.m */; };
 		FFE4A45722FD7BE60022D2A1 /* ZBSegmentedControlController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A45522FD7BE60022D2A1 /* ZBSegmentedControlController.m */; };
+		FFE4A45B22FD90120022D2A1 /* UIView+ZBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A45A22FD90120022D2A1 /* UIView+ZBFrame.m */; };
+		FFE4A45C22FD90120022D2A1 /* UIView+ZBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A45A22FD90120022D2A1 /* UIView+ZBFrame.m */; };
+		FFE4A45F22FD90250022D2A1 /* UIView+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A45E22FD90250022D2A1 /* UIView+ZBExtension.m */; };
+		FFE4A46022FD90250022D2A1 /* UIView+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A45E22FD90250022D2A1 /* UIView+ZBExtension.m */; };
+		FFE4A46522FD971C0022D2A1 /* UIFont+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A46422FD971C0022D2A1 /* UIFont+ZBExtension.m */; };
+		FFE4A46622FD971C0022D2A1 /* UIFont+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A46422FD971C0022D2A1 /* UIFont+ZBExtension.m */; };
+		FFE4A46A22FD98980022D2A1 /* UIBarButtonItem+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A46922FD98980022D2A1 /* UIBarButtonItem+ZBExtension.m */; };
+		FFE4A46B22FD98980022D2A1 /* UIBarButtonItem+ZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE4A46922FD98980022D2A1 /* UIBarButtonItem+ZBExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +238,46 @@
 		FF0B81DB22FC269700C1B094 /* ZBUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBUser.h; sourceTree = "<group>"; };
 		FF0B81DC22FC269700C1B094 /* ZBUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBUser.m; sourceTree = "<group>"; };
 		FF0B81E022FC2AE100C1B094 /* ZBConstInline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBConstInline.h; sourceTree = "<group>"; };
+		FF1EECA023016A0700DD7B09 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		FF1EECA123016A0700DD7B09 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		FF1EECA623016A4B00DD7B09 /* LoginBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginBaseViewModel.h; sourceTree = "<group>"; };
+		FF1EECA723016A4B00DD7B09 /* LoginBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginBaseViewModel.m; sourceTree = "<group>"; };
+		FF1EECAA23016A6300DD7B09 /* AccountLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountLoginViewModel.h; sourceTree = "<group>"; };
+		FF1EECAB23016A6300DD7B09 /* AccountLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountLoginViewModel.m; sourceTree = "<group>"; };
+		FF1EECAE23016A8300DD7B09 /* NewFeatureViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewFeatureViewModel.h; sourceTree = "<group>"; };
+		FF1EECAF23016A8300DD7B09 /* NewFeatureViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewFeatureViewModel.m; sourceTree = "<group>"; };
+		FF1EECB223016AA400DD7B09 /* BootLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BootLoginViewModel.h; sourceTree = "<group>"; };
+		FF1EECB323016AA400DD7B09 /* BootLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BootLoginViewModel.m; sourceTree = "<group>"; };
+		FF1EECB923023F7B00DD7B09 /* ZBFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBFileManager.h; sourceTree = "<group>"; };
+		FF1EECBA23023F7B00DD7B09 /* ZBFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBFileManager.m; sourceTree = "<group>"; };
+		FF1EECC323024D4700DD7B09 /* SAMKeychain+ZBUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain+ZBUtil.h"; sourceTree = "<group>"; };
+		FF1EECC423024D4700DD7B09 /* SAMKeychain+ZBUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain+ZBUtil.m"; sourceTree = "<group>"; };
+		FF1EECC82302514100DD7B09 /* ZBConstEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBConstEnum.h; sourceTree = "<group>"; };
+		FF1EECCB23025E2800DD7B09 /* HomePageViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewModel.h; sourceTree = "<group>"; };
+		FF1EECCC23025E2800DD7B09 /* HomePageViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewModel.m; sourceTree = "<group>"; };
+		FF1EECD82302614900DD7B09 /* MainFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainFrameViewController.h; sourceTree = "<group>"; };
+		FF1EECD92302614900DD7B09 /* MainFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainFrameViewController.m; sourceTree = "<group>"; };
+		FF1EECDC2302617D00DD7B09 /* MainFrameViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainFrameViewModel.h; sourceTree = "<group>"; };
+		FF1EECDD2302617D00DD7B09 /* MainFrameViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainFrameViewModel.m; sourceTree = "<group>"; };
+		FF1EECE02302620A00DD7B09 /* ContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		FF1EECE12302620A00DD7B09 /* ContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		FF1EECE42302623300DD7B09 /* DiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		FF1EECE52302623300DD7B09 /* DiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		FF1EECEA2302632B00DD7B09 /* ZBCommonItemViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBCommonItemViewModel.h; sourceTree = "<group>"; };
+		FF1EECEB2302632B00DD7B09 /* ZBCommonItemViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBCommonItemViewModel.m; sourceTree = "<group>"; };
+		FF1EECEE2302635500DD7B09 /* ZBCommonGroupViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBCommonGroupViewModel.h; sourceTree = "<group>"; };
+		FF1EECEF2302635500DD7B09 /* ZBCommonGroupViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBCommonGroupViewModel.m; sourceTree = "<group>"; };
+		FF1EECF5230264FB00DD7B09 /* ZBReactiveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBReactiveView.h; sourceTree = "<group>"; };
+		FF1EECF6230265C600DD7B09 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		FF1EECF7230265C600DD7B09 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		FF39744E22FE5D41006E3330 /* UIScrollView+ZBRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ZBRefresh.h"; sourceTree = "<group>"; };
+		FF39744F22FE5D41006E3330 /* UIScrollView+ZBRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ZBRefresh.m"; sourceTree = "<group>"; };
+		FF39745322FE61A3006E3330 /* FBKVOController+ZBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBKVOController+ZBExtension.h"; sourceTree = "<group>"; };
+		FF39745422FE61A3006E3330 /* FBKVOController+ZBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FBKVOController+ZBExtension.m"; sourceTree = "<group>"; };
+		FF39745822FE6A91006E3330 /* ZBTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBTabBar.h; sourceTree = "<group>"; };
+		FF39745922FE6A91006E3330 /* ZBTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBTabBar.m; sourceTree = "<group>"; };
+		FF39745D22FE6B42006E3330 /* UIImage+ZBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZBExtension.h"; sourceTree = "<group>"; };
+		FF39745E22FE6B42006E3330 /* UIImage+ZBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZBExtension.m"; sourceTree = "<group>"; };
 		FFE4A3A522FD0A390022D2A1 /* ZBMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBMacros.h; sourceTree = "<group>"; };
 		FFE4A3A922FD16110022D2A1 /* NSObject+ZB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZB.h"; sourceTree = "<group>"; };
 		FFE4A3AA22FD16250022D2A1 /* NSObject+ZBAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZBAlert.h"; sourceTree = "<group>"; };
@@ -257,6 +343,15 @@
 		FFE4A45122FD7BD00022D2A1 /* ZBCommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBCommonViewController.m; sourceTree = "<group>"; };
 		FFE4A45422FD7BE60022D2A1 /* ZBSegmentedControlController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBSegmentedControlController.h; sourceTree = "<group>"; };
 		FFE4A45522FD7BE60022D2A1 /* ZBSegmentedControlController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBSegmentedControlController.m; sourceTree = "<group>"; };
+		FFE4A45922FD90120022D2A1 /* UIView+ZBFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZBFrame.h"; sourceTree = "<group>"; };
+		FFE4A45A22FD90120022D2A1 /* UIView+ZBFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZBFrame.m"; sourceTree = "<group>"; };
+		FFE4A45D22FD90250022D2A1 /* UIView+ZBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZBExtension.h"; sourceTree = "<group>"; };
+		FFE4A45E22FD90250022D2A1 /* UIView+ZBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZBExtension.m"; sourceTree = "<group>"; };
+		FFE4A46122FD92EB0022D2A1 /* UIView+ZB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZB.h"; sourceTree = "<group>"; };
+		FFE4A46322FD971C0022D2A1 /* UIFont+ZBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+ZBExtension.h"; sourceTree = "<group>"; };
+		FFE4A46422FD971C0022D2A1 /* UIFont+ZBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ZBExtension.m"; sourceTree = "<group>"; };
+		FFE4A46822FD98980022D2A1 /* UIBarButtonItem+ZBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZBExtension.h"; sourceTree = "<group>"; };
+		FFE4A46922FD98980022D2A1 /* UIBarButtonItem+ZBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZBExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +463,7 @@
 				FFE4A3A522FD0A390022D2A1 /* ZBMacros.h */,
 				FFE4A43822FD5A430022D2A1 /* ZBConstant.h */,
 				FFE4A43922FD5A430022D2A1 /* ZBConstant.m */,
+				FF1EECC82302514100DD7B09 /* ZBConstEnum.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -384,6 +480,8 @@
 		FF0B813022FBBBA700C1B094 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FF1EECF3230264A400DD7B09 /* Common */,
+				FF39745722FE6A5F006E3330 /* Other */,
 				FF0B813922FBBDDB00C1B094 /* BaseClass */,
 			);
 			path = View;
@@ -392,6 +490,9 @@
 		FF0B813122FBBBA700C1B094 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FF1EECF4230264DB00DD7B09 /* ZBReactiveView */,
+				FF1EECBE23024B6B00DD7B09 /* SAMKeychain */,
+				FF1EECB823023F3C00DD7B09 /* Manager */,
 				FFE4A3B222FD1A3E0022D2A1 /* Helper */,
 				FF0B815622FBC17200C1B094 /* HTTP */,
 				FF0B814C22FBC0E400C1B094 /* Category */,
@@ -411,6 +512,11 @@
 		FF0B813322FBBBA700C1B094 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FF1EECD62302611E00DD7B09 /* MainFrame */,
+				FF1EECD12302605200DD7B09 /* Contacts */,
+				FF1EECD02302605200DD7B09 /* Discover */,
+				FF1EECCF2302604B00DD7B09 /* Profile */,
+				FF1EEC9F230169BC00DD7B09 /* HomePage */,
 				FF0B813822FBBDD200C1B094 /* BaseClass */,
 			);
 			path = ViewController;
@@ -427,6 +533,14 @@
 		FF0B813522FBBBAC00C1B094 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FF1EECE92302631500DD7B09 /* Other */,
+				FF1EECD72302612800DD7B09 /* MainFrame */,
+				FF1EECD42302607000DD7B09 /* Profile */,
+				FF1EECD22302606800DD7B09 /* Contacts */,
+				FF1EECD32302606800DD7B09 /* Discover */,
+				FF1EECCA23025DFA00DD7B09 /* HomePage */,
+				FF1EECA523016A2200DD7B09 /* NewFeature */,
+				FF1EECA423016A1600DD7B09 /* Login */,
 				FF0B813722FBBDCA00C1B094 /* BaseClass */,
 			);
 			path = ViewModel;
@@ -471,12 +585,12 @@
 		FF0B813822FBBDD200C1B094 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				FFE4A3B722FD1AC70022D2A1 /* ZBViewController.h */,
-				FFE4A3B822FD1AC70022D2A1 /* ZBViewController.m */,
 				FFE4A43C22FD7B490022D2A1 /* ZBNavigationController.h */,
 				FFE4A43D22FD7B490022D2A1 /* ZBNavigationController.m */,
 				FFE4A44022FD7B7A0022D2A1 /* ZBNavigationControllerStack.h */,
 				FFE4A44122FD7B7A0022D2A1 /* ZBNavigationControllerStack.m */,
+				FFE4A3B722FD1AC70022D2A1 /* ZBViewController.h */,
+				FFE4A3B822FD1AC70022D2A1 /* ZBViewController.m */,
 				FFE4A44422FD7B8E0022D2A1 /* ZBTableViewController.h */,
 				FFE4A44522FD7B8E0022D2A1 /* ZBTableViewController.m */,
 				FFE4A44822FD7BA30022D2A1 /* ZBWebViewController.h */,
@@ -502,6 +616,8 @@
 				FF0B81A222FC00BF00C1B094 /* ZBImageView.m */,
 				FF0B81A522FC01D600C1B094 /* ZBTableView.h */,
 				FF0B81A622FC01D600C1B094 /* ZBTableView.m */,
+				FF39745822FE6A91006E3330 /* ZBTabBar.h */,
+				FF39745922FE6A91006E3330 /* ZBTabBar.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -518,6 +634,12 @@
 		FF0B814C22FBC0E400C1B094 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FF39745C22FE6B0A006E3330 /* UIImage */,
+				FF39745222FE6190006E3330 /* FBKVOController */,
+				FF39744D22FE5D22006E3330 /* UIScrollView */,
+				FFE4A46722FD987D0022D2A1 /* UIBarButtonItem */,
+				FFE4A46222FD97050022D2A1 /* UIFont */,
+				FFE4A45822FD8F120022D2A1 /* UIView */,
 				FFE4A3A722FD15D60022D2A1 /* NSString */,
 				FFE4A3A622FD15CE0022D2A1 /* NSObject */,
 				FF0B814D22FBC0F600C1B094 /* NSError */,
@@ -601,6 +723,190 @@
 			path = User;
 			sourceTree = "<group>";
 		};
+		FF1EEC9F230169BC00DD7B09 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECA023016A0700DD7B09 /* HomePageViewController.h */,
+				FF1EECA123016A0700DD7B09 /* HomePageViewController.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		FF1EECA423016A1600DD7B09 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECA623016A4B00DD7B09 /* LoginBaseViewModel.h */,
+				FF1EECA723016A4B00DD7B09 /* LoginBaseViewModel.m */,
+				FF1EECAA23016A6300DD7B09 /* AccountLoginViewModel.h */,
+				FF1EECAB23016A6300DD7B09 /* AccountLoginViewModel.m */,
+				FF1EECB223016AA400DD7B09 /* BootLoginViewModel.h */,
+				FF1EECB323016AA400DD7B09 /* BootLoginViewModel.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FF1EECA523016A2200DD7B09 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECAE23016A8300DD7B09 /* NewFeatureViewModel.h */,
+				FF1EECAF23016A8300DD7B09 /* NewFeatureViewModel.m */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		FF1EECB823023F3C00DD7B09 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECB923023F7B00DD7B09 /* ZBFileManager.h */,
+				FF1EECBA23023F7B00DD7B09 /* ZBFileManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FF1EECBE23024B6B00DD7B09 /* SAMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECC323024D4700DD7B09 /* SAMKeychain+ZBUtil.h */,
+				FF1EECC423024D4700DD7B09 /* SAMKeychain+ZBUtil.m */,
+			);
+			path = SAMKeychain;
+			sourceTree = "<group>";
+		};
+		FF1EECCA23025DFA00DD7B09 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECCB23025E2800DD7B09 /* HomePageViewModel.h */,
+				FF1EECCC23025E2800DD7B09 /* HomePageViewModel.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		FF1EECCF2302604B00DD7B09 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECF6230265C600DD7B09 /* ProfileViewController.h */,
+				FF1EECF7230265C600DD7B09 /* ProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FF1EECD02302605200DD7B09 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECE42302623300DD7B09 /* DiscoverViewController.h */,
+				FF1EECE52302623300DD7B09 /* DiscoverViewController.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		FF1EECD12302605200DD7B09 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECE02302620A00DD7B09 /* ContactsViewController.h */,
+				FF1EECE12302620A00DD7B09 /* ContactsViewController.m */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		FF1EECD22302606800DD7B09 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		FF1EECD32302606800DD7B09 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		FF1EECD42302607000DD7B09 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FF1EECD62302611E00DD7B09 /* MainFrame */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECD82302614900DD7B09 /* MainFrameViewController.h */,
+				FF1EECD92302614900DD7B09 /* MainFrameViewController.m */,
+			);
+			path = MainFrame;
+			sourceTree = "<group>";
+		};
+		FF1EECD72302612800DD7B09 /* MainFrame */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECDC2302617D00DD7B09 /* MainFrameViewModel.h */,
+				FF1EECDD2302617D00DD7B09 /* MainFrameViewModel.m */,
+			);
+			path = MainFrame;
+			sourceTree = "<group>";
+		};
+		FF1EECE92302631500DD7B09 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECEA2302632B00DD7B09 /* ZBCommonItemViewModel.h */,
+				FF1EECEB2302632B00DD7B09 /* ZBCommonItemViewModel.m */,
+				FF1EECEE2302635500DD7B09 /* ZBCommonGroupViewModel.h */,
+				FF1EECEF2302635500DD7B09 /* ZBCommonGroupViewModel.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FF1EECF3230264A400DD7B09 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FF1EECF4230264DB00DD7B09 /* ZBReactiveView */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EECF5230264FB00DD7B09 /* ZBReactiveView.h */,
+			);
+			path = ZBReactiveView;
+			sourceTree = "<group>";
+		};
+		FF39744D22FE5D22006E3330 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				FF39744E22FE5D41006E3330 /* UIScrollView+ZBRefresh.h */,
+				FF39744F22FE5D41006E3330 /* UIScrollView+ZBRefresh.m */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		FF39745222FE6190006E3330 /* FBKVOController */ = {
+			isa = PBXGroup;
+			children = (
+				FF39745322FE61A3006E3330 /* FBKVOController+ZBExtension.h */,
+				FF39745422FE61A3006E3330 /* FBKVOController+ZBExtension.m */,
+			);
+			path = FBKVOController;
+			sourceTree = "<group>";
+		};
+		FF39745722FE6A5F006E3330 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FF39745C22FE6B0A006E3330 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				FF39745D22FE6B42006E3330 /* UIImage+ZBExtension.h */,
+				FF39745E22FE6B42006E3330 /* UIImage+ZBExtension.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
 		FFE4A3A622FD15CE0022D2A1 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
@@ -659,6 +965,36 @@
 				FFE4A40D22FD4E0A0022D2A1 /* YYReachability.m */,
 			);
 			path = YYKit;
+			sourceTree = "<group>";
+		};
+		FFE4A45822FD8F120022D2A1 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4A45922FD90120022D2A1 /* UIView+ZBFrame.h */,
+				FFE4A45A22FD90120022D2A1 /* UIView+ZBFrame.m */,
+				FFE4A45D22FD90250022D2A1 /* UIView+ZBExtension.h */,
+				FFE4A45E22FD90250022D2A1 /* UIView+ZBExtension.m */,
+				FFE4A46122FD92EB0022D2A1 /* UIView+ZB.h */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		FFE4A46222FD97050022D2A1 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4A46322FD971C0022D2A1 /* UIFont+ZBExtension.h */,
+				FFE4A46422FD971C0022D2A1 /* UIFont+ZBExtension.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		FFE4A46722FD987D0022D2A1 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4A46822FD98980022D2A1 /* UIBarButtonItem+ZBExtension.h */,
+				FFE4A46922FD98980022D2A1 /* UIBarButtonItem+ZBExtension.m */,
+			);
+			path = UIBarButtonItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -828,43 +1164,66 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1EECF02302635500DD7B09 /* ZBCommonGroupViewModel.m in Sources */,
 				FFE4A42622FD53810022D2A1 /* ZBTableViewModel.m in Sources */,
 				FFE4A45622FD7BE60022D2A1 /* ZBSegmentedControlController.m in Sources */,
+				FF1EECB023016A8300DD7B09 /* NewFeatureViewModel.m in Sources */,
 				FFE4A41C22FD4E0A0022D2A1 /* YYReachability.m in Sources */,
 				FFE4A3C522FD1DA90022D2A1 /* NSString+ZBValid.m in Sources */,
+				FF1EECAC23016A6300DD7B09 /* AccountLoginViewModel.m in Sources */,
+				FF1EECC523024D4700DD7B09 /* SAMKeychain+ZBUtil.m in Sources */,
 				FFE4A41222FD4E0A0022D2A1 /* YYKeychain.m in Sources */,
+				FF1EECEC2302632B00DD7B09 /* ZBCommonItemViewModel.m in Sources */,
+				FF39745A22FE6A91006E3330 /* ZBTabBar.m in Sources */,
 				FF0B81C022FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m in Sources */,
 				FF0B814622FBC0A400C1B094 /* ZBReflection.m in Sources */,
+				FF1EECDE2302617D00DD7B09 /* MainFrameViewModel.m in Sources */,
 				FFE4A3AC22FD16250022D2A1 /* NSObject+ZBAlert.m in Sources */,
 				FFE4A40E22FD4E0A0022D2A1 /* YYWeakProxy.m in Sources */,
 				FFE4A41A22FD4E0A0022D2A1 /* YYThreadSafeArray.m in Sources */,
 				FFE4A43A22FD5A430022D2A1 /* ZBConstant.m in Sources */,
+				FF39745F22FE6B42006E3330 /* UIImage+ZBExtension.m in Sources */,
 				FF0B81C422FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m in Sources */,
 				FF0B814222FBC06600C1B094 /* ZBObject.m in Sources */,
+				FF1EECCD23025E2800DD7B09 /* HomePageViewModel.m in Sources */,
+				FF1EECF8230265C600DD7B09 /* ProfileViewController.m in Sources */,
 				FF0B815422FBC12400C1B094 /* NSError+ZBModelException.m in Sources */,
 				FFE4A3B522FD1A600022D2A1 /* ZBControllerHelper.m in Sources */,
 				FFE4A43E22FD7B490022D2A1 /* ZBNavigationController.m in Sources */,
 				FF0B81B122FC0B8000C1B094 /* ZBHTTPService.m in Sources */,
 				FF0B81A322FC00BF00C1B094 /* ZBImageView.m in Sources */,
+				FF1EECE22302620A00DD7B09 /* ContactsViewController.m in Sources */,
+				FF1EECE62302623300DD7B09 /* DiscoverViewController.m in Sources */,
 				FFE4A43222FD53BC0022D2A1 /* ZBCommonViewModel.m in Sources */,
 				FFE4A42E22FD53AA0022D2A1 /* ZBTabBarViewModel.m in Sources */,
 				FFE4A44A22FD7BA30022D2A1 /* ZBWebViewController.m in Sources */,
 				FFE4A41822FD4E0A0022D2A1 /* YYTimer.m in Sources */,
 				FF0B81A722FC01D600C1B094 /* ZBTableView.m in Sources */,
 				FF0B814A22FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m in Sources */,
+				FF1EECBB23023F7B00DD7B09 /* ZBFileManager.m in Sources */,
 				FFE4A3C122FD1D9C0022D2A1 /* NSString+ZBSize.m in Sources */,
+				FF1EECA823016A4B00DD7B09 /* LoginBaseViewModel.m in Sources */,
 				FFE4A42222FD536C0022D2A1 /* ZBViewModelServicesImpl.m in Sources */,
+				FF39745522FE61A3006E3330 /* FBKVOController+ZBExtension.m in Sources */,
+				FF1EECDA2302614900DD7B09 /* MainFrameViewController.m in Sources */,
+				FFE4A45B22FD90120022D2A1 /* UIView+ZBFrame.m in Sources */,
 				FF0B810E22FBACC700C1B094 /* ViewController.m in Sources */,
 				FF0B81C822FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
+				FF1EECA223016A0700DD7B09 /* HomePageViewController.m in Sources */,
+				FFE4A45F22FD90250022D2A1 /* UIView+ZBExtension.m in Sources */,
 				FFE4A45222FD7BD00022D2A1 /* ZBCommonViewController.m in Sources */,
+				FF1EECB423016AA400DD7B09 /* BootLoginViewModel.m in Sources */,
 				FFE4A3B022FD16CA0022D2A1 /* NSObject+ZBExtension.m in Sources */,
+				FFE4A46522FD971C0022D2A1 /* UIFont+ZBExtension.m in Sources */,
 				FF0B811922FBACC900C1B094 /* main.m in Sources */,
 				FF0B81D422FC173500C1B094 /* ZBURLParameters.m in Sources */,
 				FF0B813D22FBBE0800C1B094 /* ZBRouter.m in Sources */,
 				FFE4A3BD22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.m in Sources */,
 				FFE4A3B922FD1AC70022D2A1 /* ZBViewController.m in Sources */,
+				FFE4A46A22FD98980022D2A1 /* UIBarButtonItem+ZBExtension.m in Sources */,
 				FF0B810B22FBACC700C1B094 /* AppDelegate.m in Sources */,
 				FF0B81DD22FC269700C1B094 /* ZBUser.m in Sources */,
+				FF39745022FE5D41006E3330 /* UIScrollView+ZBRefresh.m in Sources */,
 				FFE4A41622FD4E0A0022D2A1 /* YYFileHash.m in Sources */,
 				FF0B819F22FC001600C1B094 /* ZBButton.m in Sources */,
 				FFE4A41422FD4E0A0022D2A1 /* YYGestureRecognizer.m in Sources */,
@@ -888,22 +1247,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE4A46B22FD98980022D2A1 /* UIBarButtonItem+ZBExtension.m in Sources */,
 				FF0B81C522FC0F4300C1B094 /* AFHTTPSessionManager+RACSupport.m in Sources */,
 				FFE4A42B22FD53910022D2A1 /* ZBWebViewModel.m in Sources */,
 				FF0B81BA22FC0C2200C1B094 /* ZBHTTPResponse.m in Sources */,
 				FF0B81D522FC173500C1B094 /* ZBURLParameters.m in Sources */,
+				FF1EECE72302623300DD7B09 /* DiscoverViewController.m in Sources */,
 				FF0B81CD22FC171800C1B094 /* ZBKeyedSubscript.m in Sources */,
 				FFE4A41D22FD4E0A0022D2A1 /* YYReachability.m in Sources */,
 				FF0B81C922FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
+				FF1EECB523016AA400DD7B09 /* BootLoginViewModel.m in Sources */,
 				FFE4A41322FD4E0A0022D2A1 /* YYKeychain.m in Sources */,
 				FF0B81A022FC001600C1B094 /* ZBButton.m in Sources */,
+				FF1EECDB2302614900DD7B09 /* MainFrameViewController.m in Sources */,
 				FFE4A42722FD53810022D2A1 /* ZBTableViewModel.m in Sources */,
+				FF1EECC623024D4700DD7B09 /* SAMKeychain+ZBUtil.m in Sources */,
 				FF0B814722FBC0A400C1B094 /* ZBReflection.m in Sources */,
+				FF1EECA923016A4B00DD7B09 /* LoginBaseViewModel.m in Sources */,
+				FF1EECB123016A8300DD7B09 /* NewFeatureViewModel.m in Sources */,
+				FF1EECE32302620A00DD7B09 /* ContactsViewController.m in Sources */,
 				FFE4A45322FD7BD00022D2A1 /* ZBCommonViewController.m in Sources */,
 				FFE4A3BE22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.m in Sources */,
 				FFE4A41722FD4E0A0022D2A1 /* YYFileHash.m in Sources */,
 				FF0B813E22FBBE0800C1B094 /* ZBRouter.m in Sources */,
 				FFE4A3C622FD1DA90022D2A1 /* NSString+ZBValid.m in Sources */,
+				FF1EECBC23023F7B00DD7B09 /* ZBFileManager.m in Sources */,
 				FFE4A43722FD53E60022D2A1 /* ZBSegmentedControlViewModel.m in Sources */,
 				FF0B812322FBACC900C1B094 /* OptimusPrimeTests.m in Sources */,
 				FF0B815A22FBF4CB00C1B094 /* ZBControl.m in Sources */,
@@ -912,33 +1280,47 @@
 				FFE4A3BA22FD1AC70022D2A1 /* ZBViewController.m in Sources */,
 				FFE4A40F22FD4E0A0022D2A1 /* YYWeakProxy.m in Sources */,
 				FFE4A43B22FD5A430022D2A1 /* ZBConstant.m in Sources */,
+				FF39745B22FE6A91006E3330 /* ZBTabBar.m in Sources */,
 				FFE4A3B622FD1A600022D2A1 /* ZBControllerHelper.m in Sources */,
 				FFE4A41922FD4E0A0022D2A1 /* YYTimer.m in Sources */,
 				FF0B815522FBC12400C1B094 /* NSError+ZBModelException.m in Sources */,
 				FFE4A41122FD4E0A0022D2A1 /* YYThreadSafeDictionary.m in Sources */,
 				FFE4A3AD22FD16250022D2A1 /* NSObject+ZBAlert.m in Sources */,
 				FF0B815122FBC11800C1B094 /* NSError+ZBExtension.m in Sources */,
+				FF1EECA323016A0700DD7B09 /* HomePageViewController.m in Sources */,
 				FFE4A44322FD7B7A0022D2A1 /* ZBNavigationControllerStack.m in Sources */,
 				FF0B81D122FC172600C1B094 /* ZBHTTPRequest.m in Sources */,
 				FFE4A43322FD53BC0022D2A1 /* ZBCommonViewModel.m in Sources */,
+				FF1EECF9230265C600DD7B09 /* ProfileViewController.m in Sources */,
 				FFE4A43F22FD7B490022D2A1 /* ZBNavigationController.m in Sources */,
+				FFE4A46622FD971C0022D2A1 /* UIFont+ZBExtension.m in Sources */,
 				FF0B814322FBC06600C1B094 /* ZBObject.m in Sources */,
+				FF39746022FE6B42006E3330 /* UIImage+ZBExtension.m in Sources */,
 				FF0B81B222FC0B8000C1B094 /* ZBHTTPService.m in Sources */,
+				FF1EECAD23016A6300DD7B09 /* AccountLoginViewModel.m in Sources */,
+				FF1EECED2302632B00DD7B09 /* ZBCommonItemViewModel.m in Sources */,
+				FF1EECF12302635500DD7B09 /* ZBCommonGroupViewModel.m in Sources */,
 				FFE4A41B22FD4E0A0022D2A1 /* YYThreadSafeArray.m in Sources */,
 				FF0B81A822FC01D600C1B094 /* ZBTableView.m in Sources */,
 				FF0B81DE22FC269700C1B094 /* ZBUser.m in Sources */,
 				FFE4A42F22FD53AA0022D2A1 /* ZBTabBarViewModel.m in Sources */,
 				FFE4A42322FD536C0022D2A1 /* ZBViewModelServicesImpl.m in Sources */,
+				FF39745622FE61A3006E3330 /* FBKVOController+ZBExtension.m in Sources */,
 				FFE4A3B122FD16CA0022D2A1 /* NSObject+ZBExtension.m in Sources */,
+				FFE4A46022FD90250022D2A1 /* UIView+ZBExtension.m in Sources */,
+				FF1EECCE23025E2800DD7B09 /* HomePageViewModel.m in Sources */,
 				FF0B81C122FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m in Sources */,
 				FFE4A44B22FD7BA30022D2A1 /* ZBWebViewController.m in Sources */,
 				FF0B81AD22FC03CE00C1B094 /* ZBViewModel.m in Sources */,
 				FFE4A44722FD7B8E0022D2A1 /* ZBTableViewController.m in Sources */,
+				FF39745122FE5D41006E3330 /* UIScrollView+ZBRefresh.m in Sources */,
 				FFE4A3C222FD1D9C0022D2A1 /* NSString+ZBSize.m in Sources */,
 				FF0B81A422FC00BF00C1B094 /* ZBImageView.m in Sources */,
 				FFE4A41522FD4E0A0022D2A1 /* YYGestureRecognizer.m in Sources */,
 				FF0B814B22FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m in Sources */,
+				FFE4A45C22FD90120022D2A1 /* UIView+ZBFrame.m in Sources */,
 				FFE4A44F22FD7BB70022D2A1 /* ZBTabBarController.m in Sources */,
+				FF1EECDF2302617D00DD7B09 /* MainFrameViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

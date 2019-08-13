@@ -7,11 +7,10 @@
 //
 
 #import "ZBTableViewController.h"
-
-NS_ASSUME_NONNULL_BEGIN
+#import "ZBCommonViewModel.h"
 
 @interface ZBCommonViewController : ZBTableViewController
 
 @end
 
-NS_ASSUME_NONNULL_END
+

@@ -7,8 +7,9 @@
 //  关于导航栏跳转（Push/Pop   Present/Dismiss）的协议
 
 #import <Foundation/Foundation.h>
-#import "ZBViewModel.h"
+//#import "ZBViewModel.h"
 
+@class ZBViewModel;
 @protocol ZBNavigationProtocol <NSObject>
 
 /// Pushes the corresponding view controller.

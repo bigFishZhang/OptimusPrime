@@ -6,12 +6,12 @@
 //  Copyright © 2019 zzb. All rights reserved.
 //
 
-#import "ZBViewModel.h"
+#import "ZBTableViewModel.h"
+#import "ZBCommonItemViewModel.h"
+#import "ZBCommonGroupViewModel.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface ZBCommonViewModel : ZBViewModel
+@interface ZBCommonViewModel : ZBTableViewModel
 
 @end
 
-NS_ASSUME_NONNULL_END
+

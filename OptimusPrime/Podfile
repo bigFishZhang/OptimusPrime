@@ -18,16 +18,27 @@ target 'OptimusPrime' do
     #    缓存框架
     pod 'YYCache', '~> 1.0.4'
     
-
     pod 'YYCategories', '~> 1.0.4'
     
     pod 'ReactiveObjC', '~> 3.1.1'
-    # 加密
+    #    加密
     pod 'CocoaSecurity', '~> 1.2.4'
     #    字典转模型在网络框架中使用
     pod 'MJExtension', '~> 3.0.17'
-    # 状态栏通知
+    #    状态栏通知
     pod 'JDStatusBarNotification', '~> 1.6.0'
+    #    颜色分类
+    pod 'Colours', '~> 5.13.0'
+    #    刷新
+    pod 'MJRefresh', '~> 3.2.0'
+    
+    pod 'IQKeyboardManager', '~> 6.3.0'
+    
+    pod 'KVOController', '~> 1.2.0'
+    
+    pod 'FDFullscreenPopGesture', '~> 1.1'
+    # 钥匙串存储
+    pod 'SAMKeychain', '~> 1.5.3'
 
   target 'OptimusPrimeTests' do
     inherit! :search_paths

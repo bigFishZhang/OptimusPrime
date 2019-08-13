@@ -7,6 +7,7 @@
 //
 
 #import "ZBViewModel.h"
+
 /// MVVM View
 /// The base map of 'params'
 /// The `params` parameter in `-initWithParams:` method.

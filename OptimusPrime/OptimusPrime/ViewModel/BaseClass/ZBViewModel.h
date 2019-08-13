@@ -7,7 +7,8 @@
 //  所有自定义的视图模型的基类
 
 #import <Foundation/Foundation.h>
-
+#import "ZBViewModelServices.h"
+//#import "ZBViewModelServices.h"
 /// MVVM View
 /// The base map of 'params'
 /// The `params` parameter in `-initWithParams:` method.
@@ -21,7 +22,7 @@ FOUNDATION_EXTERN NSString *const ZBViewModelUtilKey;
 /// 传递webView Request的key：例如 webView request...
 FOUNDATION_EXTERN NSString *const ZBViewModelRequestKey;
 
-@protocol ZBViewModelServices;
+//@protocol ZBViewModelServices;
 
 @interface ZBViewModel : NSObject
 

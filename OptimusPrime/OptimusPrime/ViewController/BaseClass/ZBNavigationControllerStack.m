@@ -7,6 +7,9 @@
 //
 
 #import "ZBNavigationControllerStack.h"
+#import "ZBNavigationController.h"
+#import "ZBTabBarController.h"
+#import "ZBRouter.h"
 
 @implementation ZBNavigationControllerStack
 

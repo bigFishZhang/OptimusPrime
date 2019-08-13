@@ -201,4 +201,5 @@ _Pragma("clang diagnostic pop")\
 
 #import "ZBConstInline.h"
 #import "ZBConstant.h"
+#import "ZBConstEnum.h"
 #endif /* ZBMacros_h */

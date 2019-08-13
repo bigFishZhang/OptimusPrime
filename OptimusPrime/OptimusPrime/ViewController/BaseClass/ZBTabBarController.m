@@ -7,8 +7,10 @@
 //
 
 #import "ZBTabBarController.h"
-
+#import "ZBTabBar.h"
 @interface ZBTabBarController ()
+/// tabBarController
+@property (nonatomic, strong, readwrite) UITabBarController *tabBarController;
 
 @end
 
@@ -16,17 +18,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.tabBarController = [[UITabBarController alloc] init];
+    /// 添加子控制器
+    [self.view addSubview:self.tabBarController.view];
+    [self addChildViewController:self.tabBarController];
+    [self.tabBarController didMoveToParentViewController:self];
+    
+    // kvc替换系统的tabBar
+    ZBTabBar *tabbar = [[ZBTabBar alloc] init];
+    //kvc实质是修改了系统的_tabBar
+    [self.tabBarController setValue:tabbar forKeyPath:@"tabBar"];
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - Ovveride
+- (BOOL)shouldAutorotate {
+    return self.tabBarController.selectedViewController.shouldAutorotate;
 }
-*/
 
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return self.tabBarController.selectedViewController.supportedInterfaceOrientations;
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return self.tabBarController.selectedViewController.preferredStatusBarStyle;
+}
+
+- (BOOL)prefersStatusBarHidden{
+    return self.tabBarController.selectedViewController.prefersStatusBarHidden;
+}
 @end

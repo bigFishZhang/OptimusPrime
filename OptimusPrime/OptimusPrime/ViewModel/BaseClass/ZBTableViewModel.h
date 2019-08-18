@@ -16,7 +16,7 @@
 /// tableView‘s style defalut is UITableViewStylePlain , 只适合 UITableView 有效
 @property (nonatomic, readwrite, assign) UITableViewStyle style;
 
-/// 需要支持下拉刷新 defalut is NO
+/// 需要支持下来刷新 defalut is NO
 @property (nonatomic, readwrite, assign) BOOL shouldPullDownToRefresh;
 /// 需要支持上拉加载 defalut is NO
 @property (nonatomic, readwrite, assign) BOOL shouldPullUpToLoadMore;

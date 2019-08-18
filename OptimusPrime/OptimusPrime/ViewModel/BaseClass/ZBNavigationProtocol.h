@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 //#import "ZBViewModel.h"
-
 @class ZBViewModel;
+
 @protocol ZBNavigationProtocol <NSObject>
 
 /// Pushes the corresponding view controller.

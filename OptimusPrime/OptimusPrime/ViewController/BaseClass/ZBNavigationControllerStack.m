@@ -111,8 +111,7 @@
              viewController = [[ZBNavigationController alloc] initWithRootViewController:viewController];
              [self pushNavigationController:(UINavigationController *)viewController];
          }
-         [UIApplication sharedApplication].delegate.window.rootViewController = viewController;
-         
+         ZBSharedAppDelegate.window.rootViewController  = viewController;
      }];
 }
 

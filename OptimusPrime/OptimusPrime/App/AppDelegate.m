@@ -38,7 +38,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    /// 初始化UI之前配置
+    // 初始化UI之前配置(键盘 缓存路径 FMDB等)
     [self configureApplication:application initialParamsBeforeInitUI:launchOptions];
     // Config Service
     self.services = [[ZBViewModelServicesImpl alloc] init];
@@ -47,12 +47,12 @@
     // Configure Window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    // 重置rootViewController
+    // 设置 rootViewController
     [self.services resetRootViewModel:[self createInitialViewModel]];
     // 让窗口可见
     [self.window makeKeyAndVisible];
     
-    /// 初始化UI后配置
+    // 初始化UI后配置
     [self configureApplication:application initialParamsAfterInitUI:launchOptions];
     
 #if defined(DEBUG)||defined(_DEBUG)
@@ -60,7 +60,7 @@
     [self configDebugModelTools];
 #endif
     
-    // Save the application version info. must write last
+    //保存App版本信息,用于判断是否显示新特性
     [[NSUserDefaults standardUserDefaults] setValue:ZB_APP_VERSION forKey:ZBApplicationVersionKey];
     [[NSUserDefaults standardUserDefaults] synchronize];
     

@@ -28,6 +28,7 @@
             Class viewModelClass = itemViewModel.destViewModelClass;
             ZBViewModel *viewModel = [[viewModelClass alloc] initWithServices:self.services params:@{ZBViewModelTitleKey:itemViewModel.title}];
             [self.services pushViewModel:viewModel animated:YES];
+            
         }
         return [RACSignal empty];
     }];

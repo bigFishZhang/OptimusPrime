@@ -21,7 +21,6 @@
  */
 @property (nonatomic,readonly,strong) ZBNavigationControllerStack *navigationControllerStack;
 
-
 /**
  获取AppDelegate
 
@@ -33,6 +32,8 @@
  是否已经弹出键盘
  */
 @property (nonatomic, readwrite, assign , getter = isShowKeyboard) BOOL showKeyboard;
+
+
 
 @end
 

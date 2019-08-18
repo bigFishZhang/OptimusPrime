@@ -7,8 +7,8 @@
 //  所有自定义的视图模型的基类
 
 #import <Foundation/Foundation.h>
-#import "ZBViewModelServices.h"
 //#import "ZBViewModelServices.h"
+#import "ZBViewModelServices.h"
 /// MVVM View
 /// The base map of 'params'
 /// The `params` parameter in `-initWithParams:` method.
@@ -25,6 +25,7 @@ FOUNDATION_EXTERN NSString *const ZBViewModelRequestKey;
 //@protocol ZBViewModelServices;
 
 @interface ZBViewModel : NSObject
+
 
 /// Initialization method. This is the preferred way to create a new view model.
 ///
@@ -88,7 +89,6 @@ FOUNDATION_EXTERN NSString *const ZBViewModelRequestKey;
 /// This method will be execute after the execution of `-initWithParams:` method. But
 /// the premise is that you need to inherit `BaseViewModel`.
 - (void)initialize;
-
 
 
 

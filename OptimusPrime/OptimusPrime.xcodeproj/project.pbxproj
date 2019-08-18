@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		47EC27E8D87FBB1FD4F9A4AE /* Pods_OptimusPrimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E7B8073C21637471E67366 /* Pods_OptimusPrimeTests.framework */; };
 		8C88922EB7A09058F658190F /* Pods_OptimusPrime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA5F9EB94E83830529490F1 /* Pods_OptimusPrime.framework */; };
+		D105C74823093C970080B0B3 /* ProfileViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D105C74723093C970080B0B3 /* ProfileViewModel.m */; };
+		D105C74923093C970080B0B3 /* ProfileViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D105C74723093C970080B0B3 /* ProfileViewModel.m */; };
+		D105C74C23093CAB0080B0B3 /* DiscoverViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D105C74B23093CAB0080B0B3 /* DiscoverViewModel.m */; };
+		D105C74D23093CAB0080B0B3 /* DiscoverViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D105C74B23093CAB0080B0B3 /* DiscoverViewModel.m */; };
+		D105C75023093CCE0080B0B3 /* ContactsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D105C74F23093CCE0080B0B3 /* ContactsViewModel.m */; };
+		D105C75123093CCE0080B0B3 /* ContactsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D105C74F23093CCE0080B0B3 /* ContactsViewModel.m */; };
 		D1E0ED2B2308FDDA0005E10E /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED2A2308FDDA0005E10E /* Emoticons.bundle */; };
 		D1E0ED2C2308FDDA0005E10E /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED2A2308FDDA0005E10E /* Emoticons.bundle */; };
 		D1E0ED332308FDFA0005E10E /* WeChat_Moments_3.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED2D2308FDF90005E10E /* WeChat_Moments_3.json */; };
@@ -192,6 +198,12 @@
 		6EA5F9EB94E83830529490F1 /* Pods_OptimusPrime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimusPrime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E57E5BF46224E0D079DF3F7 /* Pods-OptimusPrimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimusPrimeTests.release.xcconfig"; path = "Target Support Files/Pods-OptimusPrimeTests/Pods-OptimusPrimeTests.release.xcconfig"; sourceTree = "<group>"; };
 		A08AA2B9646D4574D8ED1EF2 /* Pods-OptimusPrime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimusPrime.release.xcconfig"; path = "Target Support Files/Pods-OptimusPrime/Pods-OptimusPrime.release.xcconfig"; sourceTree = "<group>"; };
+		D105C74623093C970080B0B3 /* ProfileViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewModel.h; sourceTree = "<group>"; };
+		D105C74723093C970080B0B3 /* ProfileViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewModel.m; sourceTree = "<group>"; };
+		D105C74A23093CAB0080B0B3 /* DiscoverViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverViewModel.h; sourceTree = "<group>"; };
+		D105C74B23093CAB0080B0B3 /* DiscoverViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewModel.m; sourceTree = "<group>"; };
+		D105C74E23093CCE0080B0B3 /* ContactsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsViewModel.h; sourceTree = "<group>"; };
+		D105C74F23093CCE0080B0B3 /* ContactsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewModel.m; sourceTree = "<group>"; };
 		D1E0ED2A2308FDDA0005E10E /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
 		D1E0ED2D2308FDF90005E10E /* WeChat_Moments_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WeChat_Moments_3.json; sourceTree = "<group>"; };
 		D1E0ED2E2308FDFA0005E10E /* WeChat_Moments_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WeChat_Moments_1.json; sourceTree = "<group>"; };
@@ -410,6 +422,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D105C74323093C820080B0B3 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				D105C74A23093CAB0080B0B3 /* DiscoverViewModel.h */,
+				D105C74B23093CAB0080B0B3 /* DiscoverViewModel.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		D105C74423093C820080B0B3 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				D105C74E23093CCE0080B0B3 /* ContactsViewModel.h */,
+				D105C74F23093CCE0080B0B3 /* ContactsViewModel.m */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		D105C74523093C880080B0B3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D105C74623093C970080B0B3 /* ProfileViewModel.h */,
+				D105C74723093C970080B0B3 /* ProfileViewModel.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		FF0B80FD22FBACC700C1B094 = {
 			isa = PBXGroup;
 			children = (
@@ -554,12 +593,12 @@
 		FF0B813522FBBBAC00C1B094 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D105C74523093C880080B0B3 /* Profile */,
+				D105C74423093C820080B0B3 /* Contacts */,
+				D105C74323093C820080B0B3 /* Discover */,
 				FF0B813722FBBDCA00C1B094 /* BaseClass */,
 				FF1EECE92302631500DD7B09 /* Other */,
 				FF1EECD72302612800DD7B09 /* MainFrame */,
-				FF1EECD42302607000DD7B09 /* Profile */,
-				FF1EECD22302606800DD7B09 /* Contacts */,
-				FF1EECD32302606800DD7B09 /* Discover */,
 				FF1EECCA23025DFA00DD7B09 /* HomePage */,
 				FF1EECA523016A2200DD7B09 /* NewFeature */,
 				FF1EECA423016A1600DD7B09 /* Login */,
@@ -827,27 +866,6 @@
 				FF1EECE12302620A00DD7B09 /* ContactsViewController.m */,
 			);
 			path = Contacts;
-			sourceTree = "<group>";
-		};
-		FF1EECD22302606800DD7B09 /* Contacts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Contacts;
-			sourceTree = "<group>";
-		};
-		FF1EECD32302606800DD7B09 /* Discover */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Discover;
-			sourceTree = "<group>";
-		};
-		FF1EECD42302607000DD7B09 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Profile;
 			sourceTree = "<group>";
 		};
 		FF1EECD62302611E00DD7B09 /* MainFrame */ = {
@@ -1206,6 +1224,7 @@
 				FF1EECAC23016A6300DD7B09 /* AccountLoginViewModel.m in Sources */,
 				FF1EECC523024D4700DD7B09 /* SAMKeychain+ZBUtil.m in Sources */,
 				FFE4A41222FD4E0A0022D2A1 /* YYKeychain.m in Sources */,
+				D105C74C23093CAB0080B0B3 /* DiscoverViewModel.m in Sources */,
 				FF1EECEC2302632B00DD7B09 /* ZBCommonItemViewModel.m in Sources */,
 				FF39745A22FE6A91006E3330 /* ZBTabBar.m in Sources */,
 				FF0B81C022FC0F2B00C1B094 /* RACSignal+ZBHTTPServiceAdditions.m in Sources */,
@@ -1235,6 +1254,7 @@
 				FF0B814A22FBC0C800C1B094 /* ZBEXTRuntimeExtensions.m in Sources */,
 				FF1EECBB23023F7B00DD7B09 /* ZBFileManager.m in Sources */,
 				FFE4A3C122FD1D9C0022D2A1 /* NSString+ZBSize.m in Sources */,
+				D105C74823093C970080B0B3 /* ProfileViewModel.m in Sources */,
 				FF1EECA823016A4B00DD7B09 /* LoginBaseViewModel.m in Sources */,
 				FFE4A42222FD536C0022D2A1 /* ZBViewModelServicesImpl.m in Sources */,
 				FF39745522FE61A3006E3330 /* FBKVOController+ZBExtension.m in Sources */,
@@ -1250,6 +1270,7 @@
 				FF0B811922FBACC900C1B094 /* main.m in Sources */,
 				FF0B81D422FC173500C1B094 /* ZBURLParameters.m in Sources */,
 				FF0B813D22FBBE0800C1B094 /* ZBRouter.m in Sources */,
+				D105C75023093CCE0080B0B3 /* ContactsViewModel.m in Sources */,
 				FFE4A3BD22FD1D7E0022D2A1 /* NSAttributedString+ZBSize.m in Sources */,
 				FFE4A3B922FD1AC70022D2A1 /* ZBViewController.m in Sources */,
 				FFE4A46A22FD98980022D2A1 /* UIBarButtonItem+ZBExtension.m in Sources */,
@@ -1316,11 +1337,14 @@
 				FFE4A3B622FD1A600022D2A1 /* ZBControllerHelper.m in Sources */,
 				FFE4A41922FD4E0A0022D2A1 /* YYTimer.m in Sources */,
 				FF0B815522FBC12400C1B094 /* NSError+ZBModelException.m in Sources */,
+				D105C74D23093CAB0080B0B3 /* DiscoverViewModel.m in Sources */,
 				FFE4A41122FD4E0A0022D2A1 /* YYThreadSafeDictionary.m in Sources */,
+				D105C74923093C970080B0B3 /* ProfileViewModel.m in Sources */,
 				FFE4A3AD22FD16250022D2A1 /* NSObject+ZBAlert.m in Sources */,
 				FF0B815122FBC11800C1B094 /* NSError+ZBExtension.m in Sources */,
 				FF1EECA323016A0700DD7B09 /* HomePageViewController.m in Sources */,
 				FFE4A44322FD7B7A0022D2A1 /* ZBNavigationControllerStack.m in Sources */,
+				D105C75123093CCE0080B0B3 /* ContactsViewModel.m in Sources */,
 				FF0B81D122FC172600C1B094 /* ZBHTTPRequest.m in Sources */,
 				FFE4A43322FD53BC0022D2A1 /* ZBCommonViewModel.m in Sources */,
 				FF1EECF9230265C600DD7B09 /* ProfileViewController.m in Sources */,

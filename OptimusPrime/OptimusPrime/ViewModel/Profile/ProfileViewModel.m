@@ -1,26 +1,27 @@
 //
-//  MainFrameViewModel.m
+//  ProfileViewModel.m
 //  OptimusPrime
 //
-//  Created by bigfish on 2019/8/13.
+//  Created by zhang zhengbin on 2019/8/18.
 //  Copyright © 2019 zzb. All rights reserved.
 //
 
-#import "MainFrameViewModel.h"
+#import "ProfileViewModel.h"
 
-@implementation MainFrameViewModel
+@implementation ProfileViewModel
 - (instancetype)initWithServices:(id<ZBViewModelServices>)services params:(NSDictionary *)params {
     if (self = [super initWithServices:services params:params]) {
         NSLog(@"%s",__func__);
-        
     }
     return self;
 }
 
 - (void)initialize {
     [super initialize];
-    //    @weakify(self);
-    self.title = @"Home";
+//    @weakify(self);
+    self.title = @"Profile";
+    
     //获取网络数据
 }
+
 @end

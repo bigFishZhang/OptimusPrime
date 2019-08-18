@@ -161,7 +161,8 @@ _Pragma("clang diagnostic pop")\
 
 
 /// AppDelegate
-#define ZBSharedAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+#define ZBSharedAppDelegate [[UIApplication sharedApplication] delegate]
+
 
 ////  整个应用的主题配置（颜色+字体）MAIN 代表全局都可以修改 使用前须知
 #define ZB_MAIN_NAVIGATIONBAR_BACKGROUNDCOLOR_1 [UIColor colorWithRed:.1 green:.1 blue:.1 alpha:0.65]

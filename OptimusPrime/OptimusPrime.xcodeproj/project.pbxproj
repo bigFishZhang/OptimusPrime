@@ -10,10 +10,7 @@
 		47EC27E8D87FBB1FD4F9A4AE /* Pods_OptimusPrimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E7B8073C21637471E67366 /* Pods_OptimusPrimeTests.framework */; };
 		8C88922EB7A09058F658190F /* Pods_OptimusPrime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA5F9EB94E83830529490F1 /* Pods_OptimusPrime.framework */; };
 		FF0B810B22FBACC700C1B094 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B810A22FBACC700C1B094 /* AppDelegate.m */; };
-		FF0B810E22FBACC700C1B094 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B810D22FBACC700C1B094 /* ViewController.m */; };
-		FF0B811122FBACC700C1B094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0B810F22FBACC700C1B094 /* Main.storyboard */; };
 		FF0B811322FBACC900C1B094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0B811222FBACC900C1B094 /* Assets.xcassets */; };
-		FF0B811622FBACC900C1B094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0B811422FBACC900C1B094 /* LaunchScreen.storyboard */; };
 		FF0B811922FBACC900C1B094 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B811822FBACC900C1B094 /* main.m */; };
 		FF0B812322FBACC900C1B094 /* OptimusPrimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B812222FBACC900C1B094 /* OptimusPrimeTests.m */; };
 		FF0B813D22FBBE0800C1B094 /* ZBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B813C22FBBE0800C1B094 /* ZBRouter.m */; };
@@ -184,8 +181,6 @@
 		FF0B810622FBACC700C1B094 /* OptimusPrime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimusPrime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0B810922FBACC700C1B094 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF0B810A22FBACC700C1B094 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF0B810C22FBACC700C1B094 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF0B810D22FBACC700C1B094 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FF0B811022FBACC700C1B094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF0B811222FBACC900C1B094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF0B811522FBACC900C1B094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -426,8 +421,6 @@
 				FF0B813222FBBBA700C1B094 /* Vendor */,
 				FF0B812E22FBBBA100C1B094 /* Macros */,
 				FF0B812D22FBBB9B00C1B094 /* App */,
-				FF0B810C22FBACC700C1B094 /* ViewController.h */,
-				FF0B810D22FBACC700C1B094 /* ViewController.m */,
 				FF0B810F22FBACC700C1B094 /* Main.storyboard */,
 				FF0B811422FBACC900C1B094 /* LaunchScreen.storyboard */,
 			);
@@ -512,12 +505,12 @@
 		FF0B813322FBBBA700C1B094 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FF0B813822FBBDD200C1B094 /* BaseClass */,
 				FF1EECD62302611E00DD7B09 /* MainFrame */,
 				FF1EECD12302605200DD7B09 /* Contacts */,
 				FF1EECD02302605200DD7B09 /* Discover */,
 				FF1EECCF2302604B00DD7B09 /* Profile */,
 				FF1EEC9F230169BC00DD7B09 /* HomePage */,
-				FF0B813822FBBDD200C1B094 /* BaseClass */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -533,6 +526,7 @@
 		FF0B813522FBBBAC00C1B094 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FF0B813722FBBDCA00C1B094 /* BaseClass */,
 				FF1EECE92302631500DD7B09 /* Other */,
 				FF1EECD72302612800DD7B09 /* MainFrame */,
 				FF1EECD42302607000DD7B09 /* Profile */,
@@ -541,7 +535,6 @@
 				FF1EECCA23025DFA00DD7B09 /* HomePage */,
 				FF1EECA523016A2200DD7B09 /* NewFeature */,
 				FF1EECA423016A1600DD7B09 /* Login */,
-				FF0B813722FBBDCA00C1B094 /* BaseClass */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1080,9 +1073,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0B811622FBACC900C1B094 /* LaunchScreen.storyboard in Resources */,
 				FF0B811322FBACC900C1B094 /* Assets.xcassets in Resources */,
-				FF0B811122FBACC700C1B094 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1207,7 +1198,6 @@
 				FF39745522FE61A3006E3330 /* FBKVOController+ZBExtension.m in Sources */,
 				FF1EECDA2302614900DD7B09 /* MainFrameViewController.m in Sources */,
 				FFE4A45B22FD90120022D2A1 /* UIView+ZBFrame.m in Sources */,
-				FF0B810E22FBACC700C1B094 /* ViewController.m in Sources */,
 				FF0B81C822FC0F6500C1B094 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
 				FF1EECA223016A0700DD7B09 /* HomePageViewController.m in Sources */,
 				FFE4A45F22FD90250022D2A1 /* UIView+ZBExtension.m in Sources */,
@@ -1471,6 +1461,7 @@
 			baseConfigurationReference = 5B6104A1683F2EC1754A9B03 /* Pods-OptimusPrime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y5WX43KK4M;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OptimusPrime/Macros/OptimusPrime.pch";
@@ -1491,6 +1482,7 @@
 			baseConfigurationReference = A08AA2B9646D4574D8ED1EF2 /* Pods-OptimusPrime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y5WX43KK4M;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OptimusPrime/Macros/OptimusPrime.pch";

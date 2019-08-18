@@ -71,6 +71,9 @@
 
 - (void)configureApplication:(UIApplication *)application initialParamsBeforeInitUI:(NSDictionary *)launchOptions{
     
+    /// 显示状态栏
+    //[application setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+    
     /// 配置键盘
     [self configureKeyboardManager];
     
@@ -164,12 +167,14 @@
 - (ZBViewModel *)createInitialViewModel {
     // The user has logged-in.
     NSString *version = [[NSUserDefaults standardUserDefaults] valueForKey:ZBApplicationVersionKey];
+    
+     return [[HomePageViewModel alloc] initWithServices:self.services params:nil];
     /// 版本不一样就先走 新特性界面
-    if (![version isEqualToString:ZB_APP_VERSION]){
-        return [[NewFeatureViewModel alloc] initWithServices:self.services params:nil];
-    }else{
+//    if (![version isEqualToString:ZB_APP_VERSION]){
+//        return [[NewFeatureViewModel alloc] initWithServices:self.services params:nil];
+//    }else{
         /// 这里判断一下
-          return [[HomePageViewModel alloc] initWithServices:self.services params:nil];
+        
 //        if ([SAMKeychain rawLogin] && self.services.client.currentUser) {
 //            /// 有账号+有用户数据
 //            /// 已经登录，跳转到主页
@@ -181,7 +186,7 @@
 //            /// 第一次使用微信
 //            return [[LoginBaseViewModel alloc] initWithServices:self.services params:nil];
 //        }
-    }
+//    }
 }
 
 #pragma mark- 获取appDelegate

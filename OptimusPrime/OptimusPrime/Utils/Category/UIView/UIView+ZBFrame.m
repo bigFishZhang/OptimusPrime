@@ -10,7 +10,7 @@
 
 @implementation UIView (ZBFrame)
 
-- (void)setZh_x:(CGFloat)zb_x
+- (void)setZb_x:(CGFloat)zb_x
 {
     CGRect frame = self.frame;
     frame.origin.x = zb_x;
@@ -21,7 +21,7 @@
     return self.frame.origin.x;
 }
 
-- (void)setZh_y:(CGFloat)zb_y
+- (void)setZb_y:(CGFloat)zb_y
 {
     CGRect frame = self.frame;
     frame.origin.y = zb_y;
@@ -32,7 +32,7 @@
     return self.frame.origin.y;
 }
 
-- (void)setZh_centerX:(CGFloat)zb_centerX
+- (void)setZb_centerX:(CGFloat)zb_centerX
 {
     CGPoint center = self.center;
     center.x = zb_centerX;
@@ -43,7 +43,7 @@
     return self.center.x;
 }
 
-- (void)setZh_centerY:(CGFloat)zb_centerY
+- (void)setZb_centerY:(CGFloat)zb_centerY
 {
     CGPoint center = self.center;
     center.y = zb_centerY;
@@ -54,7 +54,7 @@
     return self.center.y;
 }
 
-- (void)setZh_width:(CGFloat)zb_width
+- (void)setZb_width:(CGFloat)zb_width
 {
     CGRect frame = self.frame;
     frame.size.width = zb_width;
@@ -66,7 +66,7 @@
 }
 
 
-- (void)setZh_height:(CGFloat)zb_height
+- (void)setZb_height:(CGFloat)zb_height
 {
     CGRect frame = self.frame;
     frame.size.height = zb_height;
@@ -77,7 +77,7 @@
     return self.frame.size.height;
 }
 
-- (void)setZh_size:(CGSize)zb_size
+- (void)setZb_size:(CGSize)zb_size
 {
     CGRect frame = self.frame;
     frame.size = zb_size;
@@ -88,7 +88,7 @@
     return self.frame.size;
 }
 
-- (void)setZh_origin:(CGPoint)zb_origin
+- (void)setZb_origin:(CGPoint)zb_origin
 {
     CGRect frame = self.frame;
     frame.origin = zb_origin;
@@ -99,7 +99,7 @@
     return self.frame.origin;
 }
 
-- (void)setZh_top:(CGFloat)zb_top
+- (void)setZb_top:(CGFloat)zb_top
 {
     CGRect frame = self.frame;
     frame.origin.y = zb_top;
@@ -111,7 +111,7 @@
 }
 
 
-- (void)setZh_left:(CGFloat)zb_left
+- (void)setZb_left:(CGFloat)zb_left
 {
     CGRect frame = self.frame;
     frame.origin.x = zb_left;
@@ -123,7 +123,7 @@
 }
 
 
-- (void)setZh_bottom:(CGFloat)zb_bottom
+- (void)setZb_bottom:(CGFloat)zb_bottom
 {
     CGRect frame = self.frame;
     frame.origin.y = zb_bottom - frame.size.height;
@@ -134,7 +134,7 @@
 }
 
 
-- (void)setZh_right:(CGFloat)zb_right
+- (void)setZb_right:(CGFloat)zb_right
 {
     CGRect frame = self.frame;
     frame.origin.x = zb_right - frame.size.width;

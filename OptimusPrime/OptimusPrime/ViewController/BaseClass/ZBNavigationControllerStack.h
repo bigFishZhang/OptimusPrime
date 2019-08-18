@@ -4,7 +4,7 @@
 //
 //  Created by bigfish on 2019/8/9.
 //  Copyright © 2019 zzb. All rights reserved.
-//
+//  `view` 层维护一个 `ZBNavigationController` 的堆栈 ZBNavigationControllerStack ，不管是 push/pop 还是 present/dismiss ，都使用栈顶的 ZBNavigationController 来执行导航操作，且并且保证 present 出来的是一个 ZBNavigationController 。
 
 #import <Foundation/Foundation.h>
 

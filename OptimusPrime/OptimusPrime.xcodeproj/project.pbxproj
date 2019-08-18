@@ -9,6 +9,20 @@
 /* Begin PBXBuildFile section */
 		47EC27E8D87FBB1FD4F9A4AE /* Pods_OptimusPrimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E7B8073C21637471E67366 /* Pods_OptimusPrimeTests.framework */; };
 		8C88922EB7A09058F658190F /* Pods_OptimusPrime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA5F9EB94E83830529490F1 /* Pods_OptimusPrime.framework */; };
+		D1E0ED2B2308FDDA0005E10E /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED2A2308FDDA0005E10E /* Emoticons.bundle */; };
+		D1E0ED2C2308FDDA0005E10E /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED2A2308FDDA0005E10E /* Emoticons.bundle */; };
+		D1E0ED332308FDFA0005E10E /* WeChat_Moments_3.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED2D2308FDF90005E10E /* WeChat_Moments_3.json */; };
+		D1E0ED342308FDFA0005E10E /* WeChat_Moments_3.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED2D2308FDF90005E10E /* WeChat_Moments_3.json */; };
+		D1E0ED352308FDFA0005E10E /* WeChat_Moments_1.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED2E2308FDFA0005E10E /* WeChat_Moments_1.json */; };
+		D1E0ED362308FDFA0005E10E /* WeChat_Moments_1.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED2E2308FDFA0005E10E /* WeChat_Moments_1.json */; };
+		D1E0ED372308FDFA0005E10E /* Zone.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED2F2308FDFA0005E10E /* Zone.plist */; };
+		D1E0ED382308FDFA0005E10E /* Zone.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED2F2308FDFA0005E10E /* Zone.plist */; };
+		D1E0ED392308FDFA0005E10E /* WeChat_Moments_2.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED302308FDFA0005E10E /* WeChat_Moments_2.json */; };
+		D1E0ED3A2308FDFA0005E10E /* WeChat_Moments_2.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED302308FDFA0005E10E /* WeChat_Moments_2.json */; };
+		D1E0ED3B2308FDFA0005E10E /* WeChatSight.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED312308FDFA0005E10E /* WeChatSight.mp4 */; };
+		D1E0ED3C2308FDFA0005E10E /* WeChatSight.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED312308FDFA0005E10E /* WeChatSight.mp4 */; };
+		D1E0ED3D2308FDFA0005E10E /* WeChat_Moments_4.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED322308FDFA0005E10E /* WeChat_Moments_4.json */; };
+		D1E0ED3E2308FDFA0005E10E /* WeChat_Moments_4.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E0ED322308FDFA0005E10E /* WeChat_Moments_4.json */; };
 		FF0B810B22FBACC700C1B094 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B810A22FBACC700C1B094 /* AppDelegate.m */; };
 		FF0B811322FBACC900C1B094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0B811222FBACC900C1B094 /* Assets.xcassets */; };
 		FF0B811922FBACC900C1B094 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B811822FBACC900C1B094 /* main.m */; };
@@ -178,6 +192,13 @@
 		6EA5F9EB94E83830529490F1 /* Pods_OptimusPrime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimusPrime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E57E5BF46224E0D079DF3F7 /* Pods-OptimusPrimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimusPrimeTests.release.xcconfig"; path = "Target Support Files/Pods-OptimusPrimeTests/Pods-OptimusPrimeTests.release.xcconfig"; sourceTree = "<group>"; };
 		A08AA2B9646D4574D8ED1EF2 /* Pods-OptimusPrime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimusPrime.release.xcconfig"; path = "Target Support Files/Pods-OptimusPrime/Pods-OptimusPrime.release.xcconfig"; sourceTree = "<group>"; };
+		D1E0ED2A2308FDDA0005E10E /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		D1E0ED2D2308FDF90005E10E /* WeChat_Moments_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WeChat_Moments_3.json; sourceTree = "<group>"; };
+		D1E0ED2E2308FDFA0005E10E /* WeChat_Moments_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WeChat_Moments_1.json; sourceTree = "<group>"; };
+		D1E0ED2F2308FDFA0005E10E /* Zone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Zone.plist; sourceTree = "<group>"; };
+		D1E0ED302308FDFA0005E10E /* WeChat_Moments_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WeChat_Moments_2.json; sourceTree = "<group>"; };
+		D1E0ED312308FDFA0005E10E /* WeChatSight.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = WeChatSight.mp4; sourceTree = "<group>"; };
+		D1E0ED322308FDFA0005E10E /* WeChat_Moments_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WeChat_Moments_4.json; sourceTree = "<group>"; };
 		FF0B810622FBACC700C1B094 /* OptimusPrime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimusPrime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0B810922FBACC700C1B094 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF0B810A22FBACC700C1B094 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -518,6 +539,13 @@
 		FF0B813422FBBBA800C1B094 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				D1E0ED2E2308FDFA0005E10E /* WeChat_Moments_1.json */,
+				D1E0ED302308FDFA0005E10E /* WeChat_Moments_2.json */,
+				D1E0ED2D2308FDF90005E10E /* WeChat_Moments_3.json */,
+				D1E0ED322308FDFA0005E10E /* WeChat_Moments_4.json */,
+				D1E0ED312308FDFA0005E10E /* WeChatSight.mp4 */,
+				D1E0ED2F2308FDFA0005E10E /* Zone.plist */,
+				D1E0ED2A2308FDDA0005E10E /* Emoticons.bundle */,
 				FF0B811222FBACC900C1B094 /* Assets.xcassets */,
 			);
 			path = Resource;
@@ -1073,7 +1101,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E0ED392308FDFA0005E10E /* WeChat_Moments_2.json in Resources */,
+				D1E0ED332308FDFA0005E10E /* WeChat_Moments_3.json in Resources */,
 				FF0B811322FBACC900C1B094 /* Assets.xcassets in Resources */,
+				D1E0ED372308FDFA0005E10E /* Zone.plist in Resources */,
+				D1E0ED3B2308FDFA0005E10E /* WeChatSight.mp4 in Resources */,
+				D1E0ED2B2308FDDA0005E10E /* Emoticons.bundle in Resources */,
+				D1E0ED3D2308FDFA0005E10E /* WeChat_Moments_4.json in Resources */,
+				D1E0ED352308FDFA0005E10E /* WeChat_Moments_1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1081,6 +1116,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E0ED382308FDFA0005E10E /* Zone.plist in Resources */,
+				D1E0ED362308FDFA0005E10E /* WeChat_Moments_1.json in Resources */,
+				D1E0ED2C2308FDDA0005E10E /* Emoticons.bundle in Resources */,
+				D1E0ED3E2308FDFA0005E10E /* WeChat_Moments_4.json in Resources */,
+				D1E0ED3C2308FDFA0005E10E /* WeChatSight.mp4 in Resources */,
+				D1E0ED3A2308FDFA0005E10E /* WeChat_Moments_2.json in Resources */,
+				D1E0ED342308FDFA0005E10E /* WeChat_Moments_3.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

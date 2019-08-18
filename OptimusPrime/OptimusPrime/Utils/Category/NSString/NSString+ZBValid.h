@@ -11,31 +11,31 @@
 
 @interface NSString (ZBValid)
 /// 检测字符串是否包含中文
-+( BOOL)mh_isContainChinese:(NSString *)str;
++( BOOL)zb_isContainChinese:(NSString *)str;
 
 /// 整形
-+ (BOOL)mh_isPureInt:(NSString *)string;
++ (BOOL)zb_isPureInt:(NSString *)string;
 
 /// 浮点型
-+ (BOOL)mh_isPureFloat:(NSString *)string;
++ (BOOL)zb_isPureFloat:(NSString *)string;
 
 /// 有效的手机号码
-+ (BOOL)mh_isValidMobile:(NSString *)str;
++ (BOOL)zb_isValidMobile:(NSString *)str;
 
 /// 纯数字
-+ (BOOL)mh_isPureDigitCharacters:(NSString *)string;
++ (BOOL)zb_isPureDigitCharacters:(NSString *)string;
 
 /// 字符串为字母或者数字
-+ (BOOL)mh_isValidCharacterOrNumber:(NSString *)str;
++ (BOOL)zb_isValidCharacterOrNumber:(NSString *)str;
 
 /// 判断字符串全是空格or空
-+ (BOOL) mh_isEmpty:(NSString *) str;
++ (BOOL) zb_isEmpty:(NSString *) str;
 
 /// 是否是正确的邮箱
-+ (BOOL) mh_isValidEmail:(NSString *)email;
++ (BOOL) zb_isValidEmail:(NSString *)email;
 
 /// 是否是正确的QQ
-+ (BOOL) mh_isValidQQ:(NSString *)QQ;
++ (BOOL) zb_isValidQQ:(NSString *)QQ;
 
 @end
 

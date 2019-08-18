@@ -166,7 +166,7 @@
 #pragma mark - 创建根控制器
 - (ZBViewModel *)createInitialViewModel {
     // The user has logged-in.
-    NSString *version = [[NSUserDefaults standardUserDefaults] valueForKey:ZBApplicationVersionKey];
+//    NSString *version = [[NSUserDefaults standardUserDefaults] valueForKey:ZBApplicationVersionKey];
     
      return [[HomePageViewModel alloc] initWithServices:self.services params:nil];
     /// 版本不一样就先走 新特性界面

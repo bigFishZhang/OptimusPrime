@@ -11,7 +11,7 @@
 
 @interface NSError (ZBExtension)
 
-+ (NSString *)zb_tipsOfError:(NSError *)error;
+//+ (NSString *)zb_tipsOfError:(NSError *)error;
 
 @end
 

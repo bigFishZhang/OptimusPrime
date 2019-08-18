@@ -16,12 +16,12 @@
 #import "AppDelegate.h"
 @interface HomePageViewController ()
 /** viewModel*/
-@property (nonatomic,strong) HomePageViewModel *viewModel;
+@property (nonatomic,strong,readonly) HomePageViewModel *viewModel;
 
 @end
 
 @implementation HomePageViewController
-
+@dynamic viewModel;
 #pragma mark ---life cycle---
 
 - (void)viewDidLoad {
@@ -120,11 +120,8 @@
     
     /// 配置栈底
     
-//    [[UIApplication sharedApplication].delegate.navigationControllerStack pushNavigationController:mainFrameNavigationController];
-    
-//    [UIApplication sharedApplication].delegate.nav
-    
-
+    AppDelegate *app =  (AppDelegate *)ZBSharedAppDelegate;
+    [app.navigationControllerStack pushNavigationController:mainFrameNavigationController];
     
 }
 - (void)configViewController:(UIViewController *)viewController
